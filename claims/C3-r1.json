@@ -1,0 +1,11 @@
+{
+ "id": "C3",
+ "kind": "quoted_numeric",
+ "location": "Fig. 1 caption (l.89), l.96, Fig. 2 caption (l.105)",
+ "method": "Compare with DESI VI; convert z to a with half-up rounding on the printed digits (G5); recompute z_p from the public DESI DR1 chains with the DETF definition 1 - a_p = -Cov(w0, wa)/Var(wa).",
+ "text": "The pivot redshifts found in DESI VI are z_p = 0.26 (PantheonPlus and DESY5) and 0.33 (Union3), i.e. a_p = 0.79 and 0.75.",
+ "rests_on": "Every PhantomX statement (C4, C6, C8) is made at these pivots.",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

@@ -1,0 +1,9 @@
+dr2_w0wa_PP (w_p at z_p=0.26): 95% region spans w_p -1.027 .. -0.904; the line w_p = -1 (grid col -1.0000) reaches the 95% level: PASS, the 68% level: True
+   max density on the line / 95% level = 7.669
+dr2_w0wa_PP (w0, wa): 95% region has 11616 grid cells, 0 outside zone Z4: PASS; max of w0 + wa over the 95% region -1.084; min of w0 -0.973
+dr2_w0wa_U3 (w_p at z_p=0.33): 95% region spans w_p -1.017 .. -0.855; the line w_p = -1 (grid col -1.0004) reaches the 95% level: PASS, the 68% level: False
+   max density on the line / 95% level = 2.969
+dr2_w0wa_U3 (w0, wa): 95% region has 15471 grid cells, 0 outside zone Z4: PASS; max of w0 + wa over the 95% region -1.257; min of w0 -0.886
+dr2_w0wa_DY5 (w_p at z_p=0.26): 95% region spans w_p -0.990 .. -0.868; the line w_p = -1 (grid col -0.9998) reaches the 95% level: FAIL, the 68% level: False
+   max density on the line / 95% level = 0.349
+dr2_w0wa_DY5 (w0, wa): 95% region has 17937 grid cells, 0 outside zone Z4: PASS; max of w0 + wa over the 95% region -1.214; min of w0 -0.890

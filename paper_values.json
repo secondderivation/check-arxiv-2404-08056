@@ -1,0 +1,392 @@
+{
+ "_source": "Parsed by checks/v1_transcribe.py from src-v3/DESIpivot.tex (sha256 033832464b38...) of arXiv:2404.08056v3, and from src-v3/JournalReview_adds_v2_kp7_paper1.tex (sha256 88d7ca6ea395...) of DESI 2024 VI, arXiv:2404.03002v3 (values the paper quotes, taken as printed). Printed strings kept as strings (G5).",
+ "paper": {
+  "intro.sigmas": {
+   "value": "2.5, 3.5, 3.9",
+   "line": 55,
+   "printed": "2.5 sigma, 3.5 sigma, and 3.9 sigma",
+   "meaning": "DESI VI deviations for PantheonPlus, Union3, DESY5 (with DESI BAO + CMB)",
+   "source": "text"
+  },
+  "sec2.prior_w0": {
+   "value": "[-3, 1]",
+   "line": 68,
+   "printed": "$[-3,1]$",
+   "meaning": "DESI VI uniform prior on w0",
+   "source": "text"
+  },
+  "sec2.prior_wa": {
+   "value": "[-3, 2]",
+   "line": 68,
+   "printed": "$[-3,2]$",
+   "meaning": "DESI VI uniform prior on wa",
+   "source": "text"
+  },
+  "sec2.prior_sum": {
+   "value": "w0 + wa < 0",
+   "line": 68,
+   "printed": "$w_0 + w_a <0$",
+   "meaning": "DESI VI extra condition",
+   "source": "text"
+  },
+  "fig1.zp_lines": {
+   "value": "0.26, 0.33",
+   "line": 89,
+   "printed": "redshifts 0.26 and 0.33",
+   "meaning": "Fig. 1 blue (PantheonPlus, DESY5) and orange (Union3) w = -1 lines",
+   "source": "text"
+  },
+  "sec2.zp": {
+   "value": "0.26, 0.33",
+   "line": 96,
+   "printed": "$z=0.26$ (for PantheonPlus and DESY5) and $z=0.33$ (for Union3)",
+   "meaning": "pivot redshifts 'found in' DESI VI",
+   "source": "text"
+  },
+  "sec2.ap": {
+   "value": "0.79, 0.75",
+   "line": 96,
+   "printed": "$0.79$ and $0.75$",
+   "meaning": "a_p for z_p 0.26 and 0.33",
+   "source": "text"
+  },
+  "sec2.precision": {
+   "value": "0.02",
+   "line": 100,
+   "printed": "$w=-1$, to a precision around $\\pm 0.02$",
+   "meaning": "best-fit models reach w = -1 at the pivot to this precision",
+   "source": "text"
+  },
+  "fig2.ap": {
+   "value": "0.79, 0.75",
+   "line": 105,
+   "printed": "$a_{\\rm p} = 0.79$ for the green and blue lines and $a_{\\rm p}=0.75$ for the orange",
+   "meaning": "Fig. 2 pivot scale factors",
+   "source": "text"
+  },
+  "fig2.lines": {
+   "value": "(-0.827, -0.75); (-0.64, -1.27); (-0.727, -1.05)",
+   "line": 107,
+   "printed": "-0.827-0.75*(1-a),-0.64-01.27*(1-a), -.727-1.05*(1-a)",
+   "meaning": "comment: (w0, wa) of the PantheonPlus, Union3, DESY5 lines of Fig. 2 ('best-fit' in the caption)",
+   "source": "comment"
+  },
+  "fig2.blobs": {
+   "value": "(0.79, -0.982); (0.75, -0.960); (0.79, -0.946)",
+   "line": 108,
+   "printed": "(Blue: $a =0.79$, $w=-0.982$; Orange: $a = 0.75$, $w = -0.960$; Green $a=0.79$, $w = -0.946$)",
+   "meaning": "comment: pivot blobs of Fig. 2 (blue PantheonPlus, orange Union3, green DESY5)",
+   "source": "comment"
+  },
+  "sec2.few_hundredths": {
+   "value": "a few hundredths",
+   "line": 115,
+   "printed": "it is within the special value of $w=-1$ by a few hundredths",
+   "meaning": "w at the epoch of observation vs -1",
+   "source": "text"
+  },
+  "sec2.few_tenths": {
+   "value": "a few tenths",
+   "line": 115,
+   "printed": "the likely variation is a few tenths",
+   "meaning": "variation of w within the observed range, more extreme models",
+   "source": "text"
+  },
+  "sec2.contours95": {
+   "value": "95%",
+   "line": 119,
+   "printed": "with all three 95\\% contours overlapping the $w_{\\rm p} = -1$ axis line",
+   "meaning": "after the pivot shift",
+   "source": "text"
+  },
+  "sec2.lrg_point": {
+   "value": "0.51",
+   "line": 123,
+   "printed": "$z=0.51$ LRG $D_{\\rm M}/D_{\\rm H}$",
+   "meaning": "single displaced DESI point in DESI VI Fig. 1",
+   "source": "text"
+  },
+  "sec2.sdss_swap": {
+   "value": "0.5",
+   "line": 123,
+   "printed": "a modest reduction in the significance of around half a sigma in each of the data combinations",
+   "meaning": "DESI VI Appendix A, SDSS swap",
+   "source": "text"
+  },
+  "sec2.sigmas_again": {
+   "value": "2.5, 3.5, 3.9",
+   "line": 128,
+   "printed": "2.5 sigma, 3.5 sigma, or 3.9 sigma",
+   "meaning": "quoted again; 'based on a likelihood-ratio comparison'",
+   "source": "text"
+  },
+  "sec2.likelihood_ratio": {
+   "value": "likelihood ratio",
+   "line": 128,
+   "printed": "based on a likelihood-ratio comparison",
+   "meaning": "how the significances were obtained",
+   "source": "text"
+  }
+ },
+ "desi_vi_v3": {
+  "desi.prior_w0": {
+   "value": "U[-3, 1]",
+   "line": 515,
+   "printed": "$w_0$ or $w$ & $-1$ & $\\mathcal{U}[-3, 1]$",
+   "meaning": "Table 2",
+   "source": "text"
+  },
+  "desi.prior_wa": {
+   "value": "U[-3, 2]",
+   "line": 516,
+   "printed": "$w_{a}$ & $0$ & $\\mathcal{U}[-3, 2]$",
+   "meaning": "Table 2",
+   "source": "text"
+  },
+  "desi.prior_sum": {
+   "value": "w0 + wa < 0",
+   "line": 522,
+   "printed": "we also impose the requirement $w_0+w_a<0$",
+   "meaning": "Table 2 caption",
+   "source": "text"
+  },
+  "desi.wcdm_DESI": {
+   "value": "-0.99 +0.15 -0.13",
+   "line": 667,
+   "printed": "$-0.99^{+0.15}_{-0.13}$",
+   "meaning": "wCDM w, DESI",
+   "source": "text"
+  },
+  "desi.wcdm_DESI_BBN_theta": {
+   "value": "-1.002 +0.091 -0.080",
+   "line": 668,
+   "printed": "$-1.002^{+0.091}_{-0.080}$",
+   "meaning": "wCDM w, DESI+BBN+theta*",
+   "source": "text"
+  },
+  "desi.wcdm_CMB": {
+   "value": "-1.122 +0.062 -0.054",
+   "line": 669,
+   "printed": "$-1.122^{+0.062}_{-0.054}$",
+   "meaning": "wCDM w, DESI+CMB",
+   "source": "text"
+  },
+  "desi.wcdm_PP": {
+   "value": "-0.997 +- 0.025",
+   "line": 670,
+   "printed": "$-0.997\\pm 0.025$",
+   "meaning": "wCDM w, DESI+CMB+PantheonPlus",
+   "source": "text"
+  },
+  "desi.wcdm_U3": {
+   "value": "-0.997 +- 0.032",
+   "line": 671,
+   "printed": "$-0.997\\pm 0.032$",
+   "meaning": "wCDM w, DESI+CMB+Union3",
+   "source": "text"
+  },
+  "desi.wcdm_DY5": {
+   "value": "-0.967 +- 0.024",
+   "line": 672,
+   "printed": "$-0.967\\pm 0.024$",
+   "meaning": "wCDM w, DESI+CMB+DESY5",
+   "source": "text"
+  },
+  "desi.table_w0wa_CMB": {
+   "value": "w0 -0.45 +0.34 -0.21; wa -1.79 +0.48 -1.0",
+   "line": 677,
+   "printed": "$-0.45^{+0.34}_{-0.21}$ & $-1.79^{+0.48}_{-1.0}$",
+   "meaning": "w0waCDM, DESI+CMB (Table 3)",
+   "source": "text"
+  },
+  "desi.table_w0wa_PP": {
+   "value": "Om 0.3085 +- 0.0068; w0 -0.827 +- 0.063; wa -0.75 +0.29 -0.25",
+   "line": 678,
+   "printed": "$0.3085\\pm 0.0068$ & $68.03\\pm 0.72$ &---& $-0.827\\pm 0.063$ & $-0.75^{+0.29}_{-0.25}$",
+   "meaning": "w0waCDM, DESI+CMB+PantheonPlus (Table 3)",
+   "source": "text"
+  },
+  "desi.table_w0wa_U3": {
+   "value": "Om 0.3230 +- 0.0095; w0 -0.65 +- 0.10; wa -1.27 +0.40 -0.34",
+   "line": 679,
+   "printed": "$0.3230\\pm 0.0095$ & $66.53\\pm 0.94$ &---& $-0.65\\pm 0.10$ & $-1.27^{+0.40}_{-0.34}$",
+   "meaning": "w0waCDM, DESI+CMB+Union3 (Table 3; the text eq. on l.887 prints w0 = -0.64 +- 0.11)",
+   "source": "text"
+  },
+  "desi.table_w0wa_DY5": {
+   "value": "Om 0.3160 +- 0.0065; w0 -0.727 +- 0.067; wa -1.05 +0.31 -0.27",
+   "line": 680,
+   "printed": "$0.3160\\pm 0.0065$ & $67.24\\pm 0.66$ &---& $-0.727\\pm 0.067$ & $-1.05^{+0.31}_{-0.27}$",
+   "meaning": "w0waCDM, DESI+CMB+DESY5 (Table 3)",
+   "source": "text"
+  },
+  "desi.eq_w0_U3": {
+   "value": "-0.64 +- 0.11",
+   "line": 887,
+   "printed": "w_0 &= -0.64\\pm 0.11",
+   "meaning": "w0waCDM, DESI+CMB+Union3 (text equation)",
+   "source": "text"
+  },
+  "desi.means_label": {
+   "value": "marginalised posterior means",
+   "line": 877,
+   "printed": "We find marginalised posterior means",
+   "meaning": "how DESI VI labels the w0, wa values of l.880-895",
+   "source": "text"
+  },
+  "desi.eq_w0_PP": {
+   "value": "-0.827 +- 0.063",
+   "line": 880,
+   "printed": "w_0 &= -0.827\\pm 0.063",
+   "meaning": "w0waCDM w0, DESI+CMB+PantheonPlus (text equation)",
+   "source": "text"
+  },
+  "desi.eq_wa_PP": {
+   "value": "-0.75 +0.29 -0.25",
+   "line": 881,
+   "printed": "w_a &= -0.75^{+0.29}_{-0.25}",
+   "meaning": "w0waCDM wa, DESI+CMB+PantheonPlus (text equation)",
+   "source": "text"
+  },
+  "desi.eq_wa_U3": {
+   "value": "-1.27 +0.40 -0.34",
+   "line": 888,
+   "printed": "w_a &= -1.27^{+0.40}_{-0.34}",
+   "meaning": "w0waCDM wa, DESI+CMB+Union3 (text equation)",
+   "source": "text"
+  },
+  "desi.eq_w0_DY5": {
+   "value": "-0.727 +- 0.067",
+   "line": 894,
+   "printed": "w_0 &= -0.727\\pm 0.067",
+   "meaning": "w0waCDM w0, DESI+CMB+DESY5 (text equation)",
+   "source": "text"
+  },
+  "desi.eq_wa_DY5": {
+   "value": "-1.05 +0.31 -0.27",
+   "line": 895,
+   "printed": "w_a &= -1.05^{+0.31}_{-0.27}",
+   "meaning": "w0waCDM wa, DESI+CMB+DESY5 (text equation)",
+   "source": "text"
+  },
+  "desi.kw0wa_PP": {
+   "value": "10^3 Ok 0.3 +- 1.8; w0 -0.831 +- 0.066; wa -0.73 +0.32 -0.28",
+   "line": 686,
+   "printed": "$0.3\\pm1.8$ & $-0.831\\pm 0.066$ & $-0.73^{+0.32}_{-0.28}$",
+   "meaning": "Ok w0waCDM, DESI+CMB+PantheonPlus (Table 3)",
+   "source": "text"
+  },
+  "desi.kw0wa_U3": {
+   "value": "10^3 Ok -0.4 +- 1.9; w0 -0.64 +- 0.11; wa -1.30 +0.45 -0.39",
+   "line": 687,
+   "printed": "$-0.4\\pm1.9$ & $-0.64\\pm 0.11$ & $-1.30^{+0.45}_{-0.39}$",
+   "meaning": "Ok w0waCDM, DESI+CMB+Union3 (Table 3)",
+   "source": "text"
+  },
+  "desi.kw0wa_DY5": {
+   "value": "10^3 Ok -0.2 +- 1.9; w0 -0.725 +- 0.071; wa -1.06 +0.35 -0.31",
+   "line": 688,
+   "printed": "$-0.2\\pm1.9$ & $-0.725\\pm 0.071$ & $-1.06^{+0.35}_{-0.31}$",
+   "meaning": "Ok w0waCDM, DESI+CMB+DESY5 (Table 3)",
+   "source": "text"
+  },
+  "desi.dchi2": {
+   "value": "-8.7, -15.2, -18.1",
+   "line": 907,
+   "printed": "are $-8.7$, $-15.2$ and $-18.1$",
+   "meaning": "Delta chi2_MAP w0waCDM - LCDM, +PantheonPlus, Union3, DESY5",
+   "source": "text"
+  },
+  "desi.sigmas": {
+   "value": "2.5, 3.5, 3.9",
+   "line": 907,
+   "printed": "at the $2.5\\sigma$, $3.5\\sigma$ and $3.9\\sigma$ significance levels",
+   "meaning": "from the Delta chi2_MAP",
+   "source": "text"
+  },
+  "desi.sigma_unc": {
+   "value": "0.2",
+   "line": 907,
+   "printed": "the uncertainty on these significance levels is of order $0.2 \\sigma$",
+   "meaning": "MAP scatter",
+   "source": "text"
+  },
+  "desi.lnB": {
+   "value": "0.65, 2.4, 2.8",
+   "line": 907,
+   "printed": "$|\\ln B_{21}|=0.65$, $2.4$, and $2.8$",
+   "meaning": "Bayes factors in favour of w0waCDM (PolyChord), PantheonPlus, Union3, DESY5",
+   "source": "text"
+  },
+  "desi.prior_dependence": {
+   "value": "-",
+   "line": 909,
+   "printed": "depend on the specific prior ranges for $w_0$ and $w_a$",
+   "meaning": "DESI's own statement on evidence vs priors",
+   "source": "text"
+  },
+  "desi.cmb_prior_note": {
+   "value": "-",
+   "line": 875,
+   "printed": "The contours in this scenario are however still impacted by the priors we have assumed",
+   "meaning": "DESI+CMB w0wa contours",
+   "source": "text"
+  },
+  "desi.pivot_CMB": {
+   "value": "0.57; -1.094 +- 0.070",
+   "line": 917,
+   "printed": "(0.57, -1.094\\pm 0.070)",
+   "meaning": "(z_p, w_p) DESI+CMB",
+   "source": "text"
+  },
+  "desi.pivot_PP": {
+   "value": "0.26; -0.982 +- 0.028",
+   "line": 918,
+   "printed": "(0.26, -0.982\\pm 0.028)",
+   "meaning": "(z_p, w_p) DESI+CMB+PantheonPlus",
+   "source": "text"
+  },
+  "desi.pivot_U3": {
+   "value": "0.33; -0.960 +- 0.038",
+   "line": 919,
+   "printed": "(0.33, -0.960\\pm 0.038)",
+   "meaning": "(z_p, w_p) DESI+CMB+Union3",
+   "source": "text"
+  },
+  "desi.pivot_DY5": {
+   "value": "0.26; -0.946 +- 0.026",
+   "line": 920,
+   "printed": "(0.26, -0.946\\pm 0.026)",
+   "meaning": "(z_p, w_p) DESI+CMB+DESY5",
+   "source": "text"
+  },
+  "desi.pivot_method": {
+   "value": "DETF",
+   "line": 912,
+   "printed": "We use here the formalism and definitions of \\cite{Albrecht:2006um}",
+   "meaning": "pivot definition",
+   "source": "text"
+  },
+  "desi.map_DY5": {
+   "value": "Om 0.316; w0 -0.733; wa -1.010",
+   "line": 1296,
+   "printed": "$\\Om=0.316$, $w_0=-0.733$ and $w_a=-1.010$",
+   "meaning": "MAP of DESI+CMB+DESY5",
+   "source": "text"
+  },
+  "desi.sdss_sigmas": {
+   "value": "2.2, 3.1, 3.5",
+   "line": 1284,
+   "printed": "at the $2.2\\sigma$, $3.1\\sigma$ and $3.5\\sigma$ significance levels",
+   "meaning": "(DESI+SDSS)+CMB+SN, Appendix A",
+   "source": "text"
+  },
+  "desi.lrg_offset": {
+   "value": "~2 sigma",
+   "line": 576,
+   "printed": "The single most anomalous result is the measurement of $\\FAP(z=0.51)$, which is mildly offset (at the $\\sim2\\sigma$ significance level)",
+   "meaning": "DESI VI on the z = 0.51 LRG point",
+   "source": "text"
+  }
+ }
+}

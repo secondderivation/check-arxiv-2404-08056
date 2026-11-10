@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Cite the original paper first. If you use this check, cite it as below."
+title: "Check of arXiv:2404.08056v3: Interpreting DESI's evidence for evolving dark energy"
+version: "0.1.0"
+authors:
+  - name: "Second Derivation"
+license: BSD-3-Clause
+references:
+  - type: article
+    title: "Interpreting DESI's evidence for evolving dark energy"
+    authors:
+      - name: "M. Cortês"
+      - name: "A. R. Liddle"
+    identifiers:
+      - type: url
+        value: "https://arxiv.org/abs/2404.08056v3"

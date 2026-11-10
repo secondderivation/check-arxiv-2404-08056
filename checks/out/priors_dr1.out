@@ -1,0 +1,36 @@
+
+=== dr1_w0wa_PP ===  baseline (DESI prior): Gaussian LCDM level 0.982467 = 2.38 sigma (2D); wa = -0.752 +- 0.271, wa=0 at -2.77 sd; DESI ln B = 0.65
+  T0       E_post[t] = 1.00000 (n_eff 32474), E_pi0[t] = 1.00000: Delta ln B = +0.000 (+- 0.000 over chain files) -> ln B = +0.65; LCDM level 2.38 sigma (2D, Gaussian; change +0.00); wa = -0.752 +- 0.271 (-2.77 sd)
+  CUT-2.9  E_post[t] = 1.00000 (n_eff 32474), E_pi0[t] = 0.97421: Delta ln B = +0.026 (+- 0.000 over chain files) -> ln B = +0.68; LCDM level 2.38 sigma (2D, Gaussian; change +0.00); wa = -0.752 +- 0.271 (-2.77 sd)   [control: analytic -ln(area fraction) = +0.0261 if no posterior mass below wa = -2.9; mass there 0.00e+00]
+  T1       E_post[t] = 0.52467 (n_eff 27845), E_pi0[t] = 0.28189: Delta ln B = +0.621 (+- 0.002 over chain files) -> ln B = +1.27; LCDM level 2.25 sigma (2D, Gaussian; change -0.12); wa = -0.640 +- 0.239 (-2.68 sd)
+  T2       E_post[t] = 0.16266 (n_eff 13250), E_pi0[t] = 0.19774: Delta ln B = -0.195 (+- 0.005 over chain files) -> ln B = +0.45; LCDM level 1.95 sigma (2D, Gaussian; change -0.43); wa = -0.461 +- 0.191 (-2.41 sd)
+  T3       E_post[t] = 0.69954 (n_eff 30939), E_pi0[t] = 0.16476: Delta ln B = +1.446 (+- 0.002 over chain files) -> ln B = +2.10; LCDM level 2.30 sigma (2D, Gaussian; change -0.07); wa = -0.691 +- 0.254 (-2.72 sd)
+  T4       E_post[t] = 0.31102 (n_eff 21558), E_pi0[t] = 0.04881: Delta ln B = +1.852 (+- 0.004 over chain files) -> ln B = +2.50; LCDM level 2.11 sigma (2D, Gaussian; change -0.26); wa = -0.562 +- 0.220 (-2.56 sd)
+  T5       E_post[t] = 0.00071 (n_eff 31), E_pi0[t] = 0.12910: Delta ln B = -5.207 (+- 0.208 over chain files) -> ln B = -4.56; LCDM level nan sigma (2D, Gaussian; change +nan); wa = 0.015 +- 0.040 (+0.38 sd)  [n_eff < 50: E_post[t] rests on a handful of samples, a rough estimate only]
+
+=== dr1_w0wa_U3 ===  baseline (DESI prior): Gaussian LCDM level 0.998194 = 3.12 sigma (2D); wa = -1.269 +- 0.374, wa=0 at -3.40 sd; DESI ln B = 2.4
+  T0       E_post[t] = 1.00000 (n_eff 32660), E_pi0[t] = 1.00000: Delta ln B = +0.000 (+- 0.000 over chain files) -> ln B = +2.40; LCDM level 3.12 sigma (2D, Gaussian; change +0.00); wa = -1.269 +- 0.374 (-3.40 sd)
+  CUT-2.9  E_post[t] = 0.99994 (n_eff 32657), E_pi0[t] = 0.97421: Delta ln B = +0.026 (+- 0.000 over chain files) -> ln B = +2.43; LCDM level 3.12 sigma (2D, Gaussian; change +0.00); wa = -1.269 +- 0.373 (-3.40 sd)   [control: analytic -ln(area fraction) = +0.0261 if no posterior mass below wa = -2.9; mass there 5.82e-05]
+  T1       E_post[t] = 0.24502 (n_eff 20253), E_pi0[t] = 0.28189: Delta ln B = -0.140 (+- 0.007 over chain files) -> ln B = +2.26; LCDM level 2.97 sigma (2D, Gaussian; change -0.15); wa = -0.994 +- 0.298 (-3.33 sd)
+  T2       E_post[t] = 0.02919 (n_eff 4344), E_pi0[t] = 0.19774: Delta ln B = -1.913 (+- 0.018 over chain files) -> ln B = +0.49; LCDM level 2.64 sigma (2D, Gaussian; change -0.48); wa = -0.670 +- 0.218 (-3.07 sd)
+  T3       E_post[t] = 0.37690 (n_eff 25773), E_pi0[t] = 0.16476: Delta ln B = +0.827 (+- 0.003 over chain files) -> ln B = +3.23; LCDM level 3.00 sigma (2D, Gaussian; change -0.12); wa = -1.082 +- 0.325 (-3.33 sd)
+  T4       E_post[t] = 0.06062 (n_eff 8346), E_pi0[t] = 0.04881: Delta ln B = +0.217 (+- 0.011 over chain files) -> ln B = +2.62; LCDM level 2.74 sigma (2D, Gaussian; change -0.38); wa = -0.786 +- 0.250 (-3.14 sd)
+  T5       E_post[t] = 0.00001 (n_eff 4), E_pi0[t] = 0.12910: Delta ln B = -9.063 (+- nan over chain files) -> ln B = -6.66; LCDM level nan sigma (2D, Gaussian; change +nan); wa = -0.044 +- 0.024 (-1.87 sd)  [n_eff < 50: E_post[t] rests on a handful of samples, a rough estimate only]
+
+=== dr1_w0wa_DY5 ===  baseline (DESI prior): Gaussian LCDM level 0.999771 = 3.68 sigma (2D); wa = -1.047 +- 0.297, wa=0 at -3.53 sd; DESI ln B = 2.8
+  T0       E_post[t] = 1.00000 (n_eff 35527), E_pi0[t] = 1.00000: Delta ln B = +0.000 (+- 0.000 over chain files) -> ln B = +2.80; LCDM level 3.68 sigma (2D, Gaussian; change +0.00); wa = -1.047 +- 0.297 (-3.53 sd)
+  CUT-2.9  E_post[t] = 1.00000 (n_eff 35527), E_pi0[t] = 0.97421: Delta ln B = +0.026 (+- 0.000 over chain files) -> ln B = +2.83; LCDM level 3.68 sigma (2D, Gaussian; change +0.00); wa = -1.047 +- 0.297 (-3.53 sd)   [control: analytic -ln(area fraction) = +0.0261 if no posterior mass below wa = -2.9; mass there 0.00e+00]
+  T1       E_post[t] = 0.34089 (n_eff 26367), E_pi0[t] = 0.28189: Delta ln B = +0.190 (+- 0.007 over chain files) -> ln B = +2.99; LCDM level 3.52 sigma (2D, Gaussian; change -0.16); wa = -0.876 +- 0.254 (-3.45 sd)
+  T2       E_post[t] = 0.05393 (n_eff 7594), E_pi0[t] = 0.19774: Delta ln B = -1.299 (+- 0.010 over chain files) -> ln B = +1.50; LCDM level 3.21 sigma (2D, Gaussian; change -0.47); wa = -0.629 +- 0.193 (-3.25 sd)
+  T3       E_post[t] = 0.50656 (n_eff 31703), E_pi0[t] = 0.16476: Delta ln B = +1.123 (+- 0.004 over chain files) -> ln B = +3.92; LCDM level 3.57 sigma (2D, Gaussian; change -0.11); wa = -0.946 +- 0.273 (-3.46 sd)
+  T4       E_post[t] = 0.11522 (n_eff 15294), E_pi0[t] = 0.04881: Delta ln B = +0.859 (+- 0.010 over chain files) -> ln B = +3.66; LCDM level 3.31 sigma (2D, Gaussian; change -0.37); wa = -0.748 +- 0.228 (-3.29 sd)
+  T5       E_post[t] = 0.00000 (n_eff 2), E_pi0[t] = 0.12910: Delta ln B = -10.873 (+- nan over chain files) -> ln B = -8.07; LCDM level nan sigma (2D, Gaussian; change +nan); wa = 0.008 +- 0.025 (+0.32 sd)  [n_eff < 50: E_post[t] rests on a handful of samples, a rough estimate only]
+
+=== dr1_w0wa_CMB ===  baseline (DESI prior): Gaussian LCDM level 0.979760 = 2.32 sigma (2D); wa = -1.794 +- 0.735, wa=0 at -2.44 sd
+  T0       E_post[t] = 1.00000 (n_eff 32073), E_pi0[t] = 1.00000: Delta ln B = +0.000 (+- 0.000 over chain files); LCDM level 2.32 sigma (2D, Gaussian; change +0.00); wa = -1.794 +- 0.735 (-2.44 sd)
+  CUT-2.9  E_post[t] = 0.96561 (n_eff 31066), E_pi0[t] = 0.97421: Delta ln B = -0.009 (+- 0.002 over chain files); LCDM level 2.34 sigma (2D, Gaussian; change +0.02); wa = -1.753 +- 0.714 (-2.45 sd)   [control: analytic -ln(area fraction) = +0.0261 if no posterior mass below wa = -2.9; mass there 3.44e-02]
+  T1       E_post[t] = 0.14981 (n_eff 9861), E_pi0[t] = 0.28189: Delta ln B = -0.632 (+- 0.018 over chain files); LCDM level 1.78 sigma (2D, Gaussian; change -0.54); wa = -0.820 +- 0.561 (-1.46 sd)
+  T2       E_post[t] = 0.03717 (n_eff 2418), E_pi0[t] = 0.19774: Delta ln B = -1.671 (+- 0.044 over chain files); LCDM level 1.48 sigma (2D, Gaussian; change -0.84); wa = -0.273 +- 0.352 (-0.78 sd)
+  T3       E_post[t] = 0.21768 (n_eff 12771), E_pi0[t] = 0.16476: Delta ln B = +0.279 (+- 0.015 over chain files); LCDM level 1.84 sigma (2D, Gaussian; change -0.48); wa = -0.956 +- 0.576 (-1.66 sd)
+  T4       E_post[t] = 0.06625 (n_eff 3845), E_pi0[t] = 0.04881: Delta ln B = +0.306 (+- 0.037 over chain files); LCDM level 1.68 sigma (2D, Gaussian; change -0.64); wa = -0.446 +- 0.359 (-1.24 sd)
+  T5       E_post[t] = 0.00009 (n_eff 4), E_pi0[t] = 0.12910: Delta ln B = -7.299 (+- nan over chain files); LCDM level nan sigma (2D, Gaussian; change +nan); wa = 0.020 +- 0.028 (+0.72 sd)  [n_eff < 50: E_post[t] rests on a handful of samples, a rough estimate only]

@@ -1,0 +1,11 @@
+{
+ "id": "C7",
+ "kind": "derivation",
+ "location": "l.94, Fig. 1 lines and labels",
+ "method": "Re-derive the zones from w(a); check the positions of the lines in Fig. 1 (vector paths or rendering); from the DR1 chains, posterior mass per zone and whether the 2D 95% credible region stays inside the early-phantom zone.",
+ "text": "The lines w0 = -1 (today) and w0 + wa = -1 (early times) split the plane into four zones (always phantom, never phantom, phantom only today, phantom only early), and all the observational contours lie in the zone of models that were phantom early and are non-phantom today.",
+ "rests_on": "The paper's prior argument (C9) is about how much prior weight these zones get.",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

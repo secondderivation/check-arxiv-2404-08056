@@ -1,0 +1,11 @@
+{
+ "id": "C4",
+ "kind": "numeric",
+ "location": "l.100, l.105-108 (Fig. 2 and its recipe comment), l.115",
+ "method": "Check Fig. 2's parameters against DESI VI (marginal means or best fits); recompute w at the pivot from them and from the chains (posterior mean and sd of w_p, and w_p at the highest-posterior sample); compare |w_p + 1| with 0.02 and with sigma(w_p).",
+ "text": "The best-fit w(a) models reach w = -1 at the pivot 'to a precision around +-0.02' and are 'within ... a few hundredths' of -1 at the epoch of observation; Fig. 2 draws them from (w0, wa) = (-0.827, -0.75), (-0.64, -1.27), (-0.727, -1.05) with pivot values -0.982, -0.960, -0.946.",
+ "rests_on": "This is the PhantomX coincidence, the paper's central new observation.",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

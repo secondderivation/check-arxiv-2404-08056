@@ -1,0 +1,15 @@
+
+T6 s = 0.1: E_pi0[t] = 0.201866
+  PP: E_post 0.09506, Delta ln B -0.753 -> ln B -0.103; LCDM level 1.784 sigma (T0 2.375); n_eff 8177
+  U3: E_post 0.01439, Delta ln B -2.641 -> ln B -0.241; LCDM level 2.472 sigma (T0 3.120); n_eff 2191
+  DY5: E_post 0.02725, Delta ln B -2.002 -> ln B +0.798; LCDM level 3.101 sigma (T0 3.685); n_eff 3936
+
+T6 s = 0.075: E_pi0[t] = 0.187028
+  PP: E_post 0.04621, Delta ln B -1.398 -> ln B -0.748; LCDM level 1.527 sigma (T0 2.375); n_eff 4016
+  U3: E_post 0.00473, Delta ln B -3.676 -> ln B -1.276; LCDM level 2.212 sigma (T0 3.120); n_eff 710
+  DY5: E_post 0.00946, Delta ln B -2.984 -> ln B -0.184; LCDM level 2.890 sigma (T0 3.685); n_eff 1390
+
+T6 s = 0.15: E_pi0[t] = 0.230762
+  PP: E_post 0.23629, Delta ln B +0.024 -> ln B +0.674; LCDM level 2.061 sigma (T0 2.375); n_eff 17366
+  U3: E_post 0.06357, Delta ln B -1.289 -> ln B +1.111; LCDM level 2.796 sigma (T0 3.120); n_eff 7937
+  DY5: E_post 0.10464, Delta ln B -0.791 -> ln B +2.009; LCDM level 3.338 sigma (T0 3.685); n_eff 12272

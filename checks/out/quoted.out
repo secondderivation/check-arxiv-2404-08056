@@ -1,0 +1,56 @@
+== C1 significances ==
+paper l.55: 2.5, 3.5, 3.9 | l.128: 2.5, 3.5, 3.9 | DESI VI v3 l.907: 2.5, 3.5, 3.9
+match: PASS
+  Delta chi2_MAP -8.7, k=2 -> 2.4863 sigma -> half-up 2.5 vs printed 2.5: PASS
+     (k=1 would give 2.950; sqrt(-dchi2) = 2.950)
+  Delta chi2_MAP -15.2, k=2 -> 3.4805 sigma -> half-up 3.5 vs printed 3.5: PASS
+     (k=1 would give 3.899; sqrt(-dchi2) = 3.899)
+  Delta chi2_MAP -18.1, k=2 -> 3.8515 sigma -> half-up 3.9 vs printed 3.9: PASS
+     (k=1 would give 4.254; sqrt(-dchi2) = 4.254)
+DESI VI describes them as Delta chi2_MAP between the w0waCDM MAP and the MAP at (w0, wa) = (-1, 0): a likelihood (posterior-maximum) ratio; the paper's 'based on a likelihood-ratio comparison' (l.128): PASS
+DESI VI's stated MAP scatter on the significances: 0.2 sigma
+
+== C2 priors (text part; chain part in c0_controls.py) ==
+  paper      '[-3, 1]'  DESI     'U[-3, 1]': PASS
+  paper      '[-3, 2]'  DESI     'U[-3, 2]': PASS
+  paper  'w0 + wa < 0'  DESI  'w0 + wa < 0': PASS
+
+== C3 pivot redshifts (quoted) ==
+DESI VI z_p (PP, U3, DY5): ['0.26', '0.33', '0.26'] | paper: 0.26 (PP, DY5), 0.33 (U3): PASS
+  a_p = 1/(1+0.26) = 0.79365 -> half-up 0.79 vs printed 0.79: PASS
+  a_p = 1/(1+0.33) = 0.75188 -> half-up 0.75 vs printed 0.75: PASS
+DESI+CMB (no SN) pivot, not discussed by the paper: 0.57; -1.094 +- 0.070
+
+== C4 (quoted part): Fig. 2 parameters vs DESI VI ==
+  PP: Fig. 2 (-0.827, -0.75) | DESI eq. (-0.827, -0.75) | DESI Table 3 (-0.827, -0.75): eq PASS, table PASS
+  U3: Fig. 2 (-0.64, -1.27) | DESI eq. (-0.64, -1.27) | DESI Table 3 (-0.65, -1.27): eq PASS, table FAIL
+  DY5: Fig. 2 (-0.727, -1.05) | DESI eq. (-0.727, -1.05) | DESI Table 3 (-0.727, -1.05): eq PASS, table PASS
+  DESI VI labels them: 'marginalised posterior means' (l.877); the paper's Fig. 2 caption and l.100 call them 'best-fit'.
+  DESI's MAP for DESI+CMB+DESY5 (Appendix A l.1296): Om 0.316; w0 -0.733; wa -1.010
+  PP: blob w = -0.982; DESI w_p = -0.982; line at a=0.79: -0.9845; line at exact 1/(1+z_p): -0.9818; |blob - line(a)| = 0.0025 <= 0.005: PASS
+  U3: blob w = -0.96; DESI w_p = -0.960; line at a=0.75: -0.9575; line at exact 1/(1+z_p): -0.9551; |blob - line(a)| = 0.0025 <= 0.005: PASS
+  DY5: blob w = -0.946; DESI w_p = -0.946; line at a=0.79: -0.9475; line at exact 1/(1+z_p): -0.9437; |blob - line(a)| = 0.0015 <= 0.005: PASS
+  |w_p + 1| for the blobs: ['0.018', '0.040', '0.054'] (tolerance 0.025 for '+-0.02', 0.06 for 'a few hundredths')
+  in units of DESI's sigma(w_p): ['0.64', '1.05', '2.08']
+
+== C5 (quoted part): sigma(w_p) vs constant-w sigma, DESI VI printed ==
+  PP: sigma(w_p) 0.028 / sigma(w) 0.0250 = 1.120 in [0.8, 1.25]: PASS;  w_p -0.982 vs constant w -0.997 (Gaussian identity: equal means; difference +0.015)
+  U3: sigma(w_p) 0.038 / sigma(w) 0.0320 = 1.188 in [0.8, 1.25]: PASS;  w_p -0.960 vs constant w -0.997 (Gaussian identity: equal means; difference +0.037)
+  DY5: sigma(w_p) 0.026 / sigma(w) 0.0240 = 1.083 in [0.8, 1.25]: PASS;  w_p -0.946 vs constant w -0.967 (Gaussian identity: equal means; difference +0.021)
+  CMB: sigma(w_p) 0.07 / sigma(w) 0.0580 = 1.207 in [0.8, 1.25]: PASS;  w_p -1.094 vs constant w -1.122 (Gaussian identity: equal means; difference +0.028)
+
+== C10 ==
+(i) constant w consistent with LCDM in all cases (|w+1| < 2 sigma, sigma on the side towards -1):
+  wCDM w, DESI                   w = -0.99 +0.15 -0.13      |w+1|/sigma = 0.08: PASS
+  wCDM w, DESI+BBN+theta*        w = -1.002 +0.091 -0.080   |w+1|/sigma = 0.02: PASS
+  wCDM w, DESI+CMB               w = -1.122 +0.062 -0.054   |w+1|/sigma = 1.97: PASS
+  wCDM w, DESI+CMB+PantheonPlus  w = -0.997 +- 0.025        |w+1|/sigma = 0.12: PASS
+  wCDM w, DESI+CMB+Union3        w = -0.997 +- 0.032        |w+1|/sigma = 0.09: PASS
+  wCDM w, DESI+CMB+DESY5         w = -0.967 +- 0.024        |w+1|/sigma = 1.38: PASS
+(ii) SDSS swap, DESI VI Appendix A (l.1284): 2.2, 3.1, 3.5 vs 2.5, 3.5, 3.9
+   reductions: ['0.3', '0.4', '0.4'] each in [0.25, 0.75]: PASS
+(iii) DESI VI on z=0.51 (l.576): The single most anomalous result is the measurement of $\FAP(z=0.51)$, which is mildly offset (at the $\sim2\sigma$ significance level) ...
+(iv) curvature: DESI VI Table 3 kw0wa rows, read in c10_curvature below
+  PP: 10^3 Omega_k = 0.3 +- 1.8: |Ok|/sigma = 0.17 < 0.5: PASS;  w0 -0.831 vs flat -0.827 (shift 0.06 sigma), wa -0.73 vs flat -0.75 (shift 0.07 sigma)
+  U3: 10^3 Omega_k = -0.4 +- 1.9: |Ok|/sigma = 0.21 < 0.5: PASS;  w0 -0.64 vs flat -0.65 (shift 0.09 sigma), wa -1.30 vs flat -1.27 (shift 0.07 sigma)
+  DY5: 10^3 Omega_k = -0.2 +- 1.9: |Ok|/sigma = 0.11 < 0.5: PASS;  w0 -0.725 vs flat -0.727 (shift 0.03 sigma), wa -1.06 vs flat -1.05 (shift 0.03 sigma)

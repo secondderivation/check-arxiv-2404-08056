@@ -1,0 +1,42 @@
+src-v1 094652d0a9b3d2f74bd1859a9176236e5c115ca37e93b6ca047c9a267fef0fb6
+src-v2 11dab80862c2358f693c347aef24ae2f7d0ed668c853da6689403babd720a0ad
+src-v3 88d7ca6ea395ecc55b0e4264bd3be6dd26bdb0c209a45ee3582560163b67168c
+desi.prior_w0                v1 yes v2 yes v3 yes  $w_0$ or $w$ & $-1$ & $\mathcal{U}[-3, 1]$
+desi.prior_wa                v1 yes v2 yes v3 yes  $w_{a}$ & $0$ & $\mathcal{U}[-3, 2]$
+desi.prior_sum               v1 yes v2 yes v3 yes  we also impose the requirement $w_0+w_a<0$
+desi.wcdm_DESI               v1 yes v2 yes v3 yes  $-0.99^{+0.15}_{-0.13}$
+desi.wcdm_DESI_BBN_theta     v1 yes v2 yes v3 yes  $-1.002^{+0.091}_{-0.080}$
+desi.wcdm_CMB                v1 yes v2 yes v3 yes  $-1.122^{+0.062}_{-0.054}$
+desi.wcdm_PP                 v1 yes v2 yes v3 yes  $-0.997\pm 0.025$
+desi.wcdm_U3                 v1 yes v2 yes v3 yes  $-0.997\pm 0.032$
+desi.wcdm_DY5                v1 yes v2 yes v3 yes  $-0.967\pm 0.024$
+desi.table_w0wa_CMB          v1 yes v2 yes v3 yes  $-0.45^{+0.34}_{-0.21}$ & $-1.79^{+0.48}_{-1.0}$
+desi.table_w0wa_PP           v1 yes v2 yes v3 yes  $0.3085\pm 0.0068$ & $68.03\pm 0.72$ &---& $-0.827\pm 0.063$ & $-0.75^
+desi.table_w0wa_U3           v1 yes v2 yes v3 yes  $0.3230\pm 0.0095$ & $66.53\pm 0.94$ &---& $-0.65\pm 0.10$ & $-1.27^{+
+desi.table_w0wa_DY5          v1 yes v2 yes v3 yes  $0.3160\pm 0.0065$ & $67.24\pm 0.66$ &---& $-0.727\pm 0.067$ & $-1.05^
+desi.eq_w0_U3                v1 yes v2 yes v3 yes  w_0 &= -0.64\pm 0.11
+desi.means_label             v1 no  v2 no  v3 yes  We find marginalised posterior means
+desi.eq_w0_PP                v1 yes v2 yes v3 yes  w_0 &= -0.827\pm 0.063
+desi.eq_wa_PP                v1 yes v2 yes v3 yes  w_a &= -0.75^{+0.29}_{-0.25}
+desi.eq_wa_U3                v1 yes v2 yes v3 yes  w_a &= -1.27^{+0.40}_{-0.34}
+desi.eq_w0_DY5               v1 yes v2 yes v3 yes  w_0 &= -0.727\pm 0.067
+desi.eq_wa_DY5               v1 yes v2 yes v3 yes  w_a &= -1.05^{+0.31}_{-0.27}
+desi.kw0wa_PP                v1 yes v2 yes v3 yes  $0.3\pm1.8$ & $-0.831\pm 0.066$ & $-0.73^{+0.32}_{-0.28}$
+desi.kw0wa_U3                v1 yes v2 yes v3 yes  $-0.4\pm1.9$ & $-0.64\pm 0.11$ & $-1.30^{+0.45}_{-0.39}$
+desi.kw0wa_DY5               v1 yes v2 yes v3 yes  $-0.2\pm1.9$ & $-0.725\pm 0.071$ & $-1.06^{+0.35}_{-0.31}$
+desi.dchi2                   v1 yes v2 yes v3 yes  are $-8.7$, $-15.2$ and $-18.1$
+desi.sigmas                  v1 yes v2 yes v3 yes  at the $2.5\sigma$, $3.5\sigma$ and $3.9\sigma$ significance levels
+desi.sigma_unc               v1 yes v2 yes v3 yes  the uncertainty on these significance levels is of order $0.2 \sigma$
+desi.lnB                     v1 yes v2 yes v3 yes  $|\ln B_{21}|=0.65$, $2.4$, and $2.8$
+desi.prior_dependence        v1 yes v2 yes v3 yes  depend on the specific prior ranges for $w_0$ and $w_a$
+desi.cmb_prior_note          v1 yes v2 yes v3 yes  The contours in this scenario are however still impacted by the priors
+desi.pivot_CMB               v1 yes v2 yes v3 yes  (0.57, -1.094\pm 0.070)
+desi.pivot_PP                v1 yes v2 yes v3 yes  (0.26, -0.982\pm 0.028)
+desi.pivot_U3                v1 yes v2 yes v3 yes  (0.33, -0.960\pm 0.038)
+desi.pivot_DY5               v1 yes v2 yes v3 yes  (0.26, -0.946\pm 0.026)
+desi.pivot_method            v1 yes v2 yes v3 yes  We use here the formalism and definitions of \cite{Albrecht:2006um}
+desi.map_DY5                 v1 no  v2 yes v3 yes  $\Om=0.316$, $w_0=-0.733$ and $w_a=-1.010$
+desi.sdss_sigmas             v1 no  v2 yes v3 yes  at the $2.2\sigma$, $3.1\sigma$ and $3.5\sigma$ significance levels
+desi.lrg_offset              v1 no  v2 yes v3 yes  The single most anomalous result is the measurement of $\FAP(z=0.51)$,
+
+4 of 37 printed strings are not in all three versions

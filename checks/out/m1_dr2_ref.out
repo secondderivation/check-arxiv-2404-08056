@@ -1,0 +1,16 @@
+main.tex sha256 5bbca27f6c25d14ccf89bf10259ce1057e8e501b89e8f6ec7e4010d2012725dc
+
+== pivots (DESI DR2 l.926 vs our DR2 chains) ==
+CMB: DESI z_p 0.53, w_p -1.024 +- 0.043 | ours z_p 0.5288 (0.53), w_p -1.0236 +- 0.0431 -> z_p PASS, w_p PASS, sd PASS
+DY5: DESI z_p 0.31, w_p -0.954 +- 0.024 | ours z_p 0.3055 (0.31), w_p -0.9536 +- 0.0243 -> z_p PASS, w_p PASS, sd PASS
+DESI DR2 says only that the PP and U3 pivots are 'slightly larger' with larger errors; ours: PP z_p 0.312, w_p -0.9845 +- 0.0247, U3 z_p 0.392, w_p -0.9724 +- 0.0318
+
+== significances (l.894, l.907): sigma from Delta chi2_MAP with k = 2 ==
+PP: Delta chi2 -10.7 -> 2.8236 sigma -> 2.8 vs printed 2.8: PASS
+U3: Delta chi2 -17.4 -> 3.7649 sigma -> 3.8 vs printed 3.8: PASS
+DY5: Delta chi2 -21.0 -> 4.1929 sigma -> 4.2 vs printed 4.2: PASS
+CMB: Delta chi2 -12.5 -> 3.1007 sigma -> 3.1 vs printed 3.1: PASS
+
+== DESI DR2's own words on the pivot reading (l.1119) and prior dependence (l.857), quoted for literature.md ==
+l.1119: We note that the degeneracy direction for the constraints in the $w_0$-$\wa$ plane approximately points towards the \lcdm\ solution, although this is neither exact nor consistent between fits to different combinations of datasets. This constitutes a weak coincidence as there is no \emph{a priori} reason for the best-fit values of $w_0$ and $\wa$ to have the values that lead to this observation.
+l.857: ... While other justifiable choices are possible, and the values of Bayesian quantities such as the model evidence will always depend on the particular choice used, we consider this the minimal empirical approach.

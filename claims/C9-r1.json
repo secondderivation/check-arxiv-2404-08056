@@ -1,0 +1,11 @@
+{
+ "id": "C9",
+ "kind": "interpretive",
+ "location": "abstract, l.128-132, l.136-138",
+ "method": "Part (a): what DESI VI's significances are (likelihood ratio between MAPs) and what DESI VI states about prior dependence. Part (b), impact run: importance-reweight the DR1 chains with pre-declared alternative priors and compute the change of the Bayes factor, the credible level of LCDM and the profile statistic (PROTOCOL section 3).",
+ "text": "The quoted significances carry a substantial unstated dependence on the choice of prior; tapering the prior's extension into the deep phantom regime or down-weighting models far from theoretical expectations would reduce the discrepancy from LCDM, which 'would diminish or perhaps disappear entirely'; conclusions on dark energy evolution are strongly driven by the assumed priors.",
+ "rests_on": "This is the paper's main argument and its abstract's conclusion.",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

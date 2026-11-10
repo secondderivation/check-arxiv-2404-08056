@@ -1,0 +1,11 @@
+{
+ "id": "C1",
+ "kind": "quoted_numeric",
+ "location": "l.55, l.128",
+ "method": "Compare with DESI VI v1 and v3 TeX (paper_values.json desi.*); recompute the sigma conversion from DESI's Delta chi2_MAP with 2 degrees of freedom (G10).",
+ "text": "DESI 2024 VI finds deviations from LCDM in w0waCDM of 2.5, 3.5 and 3.9 sigma for DESI BAO + CMB with PantheonPlus, Union3 and DESY5 respectively, based on a likelihood-ratio comparison.",
+ "rests_on": "The paper's whole argument is about how these numbers should be interpreted; C9 depends on what kind of statistic they are.",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

@@ -1,0 +1,11 @@
+{
+ "id": "C6",
+ "kind": "numeric",
+ "location": "l.96, l.119, Fig. 1",
+ "method": "On the DR1 chains: angle between the principal axis of the (w0, wa) posterior and the w_p = -1 line; offset of the posterior from the line in units of sd(w_p); in (w_p, wa) coordinates, the 2D 68% and 95% credible regions (getdist) and whether the 95% region reaches w_p = -1.",
+ "text": "The elongated w0-wa ellipses point closely towards the LCDM point: their major axes nearly coincide with the w_p = -1 lines at the pivots, the constraints lie on top of those lines, and after the pivot shift the contours have an accurately vertical major axis with all three 95% contours overlapping the w_p = -1 line (estimated by eye in the paper, as the chains were not public).",
+ "rests_on": "The paper could not do this transformation; it is the quantitative core of the PhantomX reading.",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

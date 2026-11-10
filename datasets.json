@@ -1,0 +1,1749 @@
+{
+  "datasets": [
+    {
+      "id": "desi-2024-dr1-cosmology",
+      "kind": "published_value",
+      "name": "DESI 2024 (DR1) cosmological constraints",
+      "survey": "DESI",
+      "release": "DR1 (2024)",
+      "role": "reference_value",
+      "role_label": "published value, taken as printed",
+      "used_for": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C9",
+        "C10"
+      ],
+      "value": null,
+      "note": "DESI 2024 VI numbers the paper quotes (significances, priors, pivots, means, Bayes factors, wCDM rows, Appendix A), transcribed into paper_values.json desi_vi_v3 from the v3 TeX.",
+      "coverage": null,
+      "links": {
+        "landing": "https://arxiv.org/abs/2404.03002",
+        "papers": [
+          {
+            "label": "DESI 2024 VI: cosmological constraints from BAO",
+            "url": "https://arxiv.org/abs/2404.03002"
+          }
+        ],
+        "files": [],
+        "distribution": null
+      },
+      "licence": "Number quoted from the paper",
+      "acknowledgement": null,
+      "files": []
+    },
+    {
+      "id": "desi-dr1-cosmo-chains",
+      "kind": "data",
+      "name": "DESI DR1 (DESI 2024 VI) public Cobaya MCMC chains: flat w0waCDM, wCDM and LCDM runs used in 2404.08056",
+      "survey": "DESI",
+      "release": "DR1 value-added catalogue bao-cosmo-params v1.0",
+      "role": "same",
+      "role_label": "data the paper used",
+      "used_for": [
+        "C0.1",
+        "C0.2",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "value": null,
+      "note": "DESI's own DR1 posterior chains for the fits the paper reads (w0waCDM, wCDM, LCDM with DESI BAO + CMB +/- SN): the transformation the paper estimated by eye, done on the same posterior.",
+      "coverage": "base_w_wa: DESI BAO alone; DESI BAO + CMB (Planck 2018 plik TTTEEE + low-l TT, EE + Planck/ACT DR6 lensing added by importance sampling); the same + PantheonPlus, Union3, DESY5. base_w: DESI BAO + CMB + each SN sample. base: DESI BAO + CMB.",
+      "links": {
+        "landing": "https://data.desi.lbl.gov/doc/releases/dr1/",
+        "papers": [
+          {
+            "label": "DESI 2024 VI: cosmological constraints from BAO",
+            "url": "https://arxiv.org/abs/2404.03002"
+          },
+          {
+            "label": "DESI DR1 data release paper",
+            "url": "https://arxiv.org/abs/2503.14745"
+          }
+        ],
+        "files": [
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "sha256": "366234ff96b642e89d2856eff3395b05b8d73246bfc1e890fb30d1579f3d6ea7"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "sha256": "7620a0738a660d1446f11b6e6a8ab7a8deebc41c0098e43718a6ed4c8b6dc89d"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "sha256": "d35d3b5885c941918b5ad31e85017dc3207e8b5032654ca96b9f99cb46163853"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "sha256": "19ac7a06ae82e882b2886858743b49580b341a829e41a9ac3be2c61fa9959e96"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "sha256": "74b95ed189a6f5abf1d20d7b776cab92fb39598aef665babd4437c4f508dfbc5"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "sha256": "06657bfebfb4525a99a5e2d3d9d4d59adc72675aaf4aeff2ef72eea94de4861e"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "sha256": "d02b59e5aff8c66a93411e62544009069fe0fca1f9ef598d9cf552b81ce7999a"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "sha256": "1d516cfc378b95afebb5a8e186a6f7566e544d2f71465ae2e776289393f88a20"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "sha256": "79ccb03b25916c21246065d5b50e488c3191625eaa5994528615da658792deaf"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "sha256": "c25468c96abd846a0ab04d237c5dee6db9f58150e281075f934e25a00ee784dc"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "sha256": "45979469cdfdd7a9cc376ab8829c8c0941291a0af7d7bb84b700f8b047e6a155"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "sha256": "eabc87d8204b0c0b6ea9357f9486f958bbb442a96cba74594b000e94c63daf97"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "sha256": "3ee0dee3430dac02b85adeeeac57971299efb83b48b05e3fc06233fb085c2b64"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "sha256": "52189c59a59e880ea55f00d3c6d82bf51aebb4749777190961f58e3924efc2f1"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "sha256": "442d5c785a32d4de4234007826f19afcd3cdb4c7c95b995cf2df2f7f762b1f7b"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "sha256": "adc4f63dbce75c7138f0cab99f956b7840e31d5651af7cb8865acb52d17ca10f"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "sha256": "4e2f29c6b06beedc27144df2fd8157bed7f5d0c521c6cf1848499768db9a25b3"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "sha256": "0c8dd7be508d69e7c4d552228d3dc51ee394d784e8a08b0e98b2f9253a73d1ab"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "sha256": "b844e7b44e968bfca2a309c90b2f572a83932889bbeb4a2f9017ec903c5fc054"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "sha256": "5ce29dea7b6294032d46d9d7c2cfbe0f4c9f03a13a3ff0b4528802b2edb87682"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "sha256": "b2119d0a397deedbf20212da06509b0cb93da0e424bfea77f7be6ad2f88652ad"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "sha256": "605f72aaff3f1575ec1d6c8963257198aff7baf00b0c369b250a6aa846ea510f"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "sha256": "1a86959d76346954ec01869084f573a4858591e7ff6f3340120896646d87e41f"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "sha256": "a1134bee4820f8f86fefd6646a934b5f37e1b29a0a53a00152d8087ff392f2b0"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.1.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.1.txt",
+            "sha256": "f6baba203497e95e6adc48656bc87b4cac9452fc59ed776fe2157ba0e83ac27d"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.2.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.2.txt",
+            "sha256": "d0fe7d46478c02ed99c476901493da5f5880a6a31f3c8bb93974d97415f72cd0"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.3.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.3.txt",
+            "sha256": "7e1e17d82d2b290dfe505377a8a935aca1164edd5ca97aca3059e0da05197240"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.4.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.4.txt",
+            "sha256": "ef5026dba30156e3765286cae5ce47e886c3748316a59dcb818f294c2e4357a1"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.checkpoint",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.checkpoint",
+            "sha256": "c23b1c022ae8ebd72e97f9a64b4fc8ef42f90be015111729f002167eb18c2259"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.covmat",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.covmat",
+            "sha256": "f37f6a684108e8546d74c8dfaf20749ff80b4b0d6fe2541f4a84649d40879c97"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.input.yaml",
+            "sha256": "32e4e4218bdd183f4303ea4bb23f2dee738cfa31576633d1a0f05b3f63302901"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.updated.yaml",
+            "sha256": "a515b2ed4161532f42da4cc656b0bbbcf139217ee95536524a8b76a07f88e67a"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "sha256": "86983df708d3c3ddcc10df937b83ef9f2ade8bf756e8ba533aec065ebf65d2ee"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "sha256": "f7ec422dcfcad0231e0d8b1237756876a78ff47c1e1992de628c4775591fbf4d"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "sha256": "829c9e3eb6ada2691c374e1e459aa4f4cb783bf18e97257fba453adc5da8cb89"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "sha256": "0a3a7e1240035233483ca421d2d57f2b99d51c7bbac5a035a09826a7d279f35b"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "sha256": "d34f34981889965c76c15ed7ae39794e50071106c184eb262c394a494a31b3df"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "sha256": "4989cbabafdb046bede0112245961f8b7ac410e8ffc26a173b71ca432dd5247e"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "sha256": "6d1bac9cd70c7cf136f060b155e2d546971df5b64152d25c9174babf51590e81"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "sha256": "c72ea3032e6418988daee5adc1e13cced56a699cbf8b20d20ceb40b760f8dc0a"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "sha256": "0bb10c0df76632e05acc12ead69a953dbe228460ffed65411fcd31731f695911"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "sha256": "9a7b9d2b3e0a682e2e21af12882e703dfd6120ac76f4e67730becbacb3b296ff"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "sha256": "969883e7bcedc848d83741af70f0d06e8d517e0e134d66a6dc0f12815cefc2aa"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "sha256": "9c607222e8b776c16a442e7edd88c0bebd75553d1c13a427af60f28c95f90896"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "sha256": "282dd80a3b10a446330f81584867c3d76cdc948646910b5ada1c63f0f01a763e"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "sha256": "2b3382b36a8c175decf1a5a4bfbf28a1934607411525ae954972fdf2b205c50e"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "sha256": "425a61019f3395879455288d33c4ad3693d3a8f9b63c8c55b5641c97c48f525d"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "sha256": "f3c23db17350b19f90a5cdceec8252be640809e35594839eb0dd4761b2f78abb"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "sha256": "ada4bfb891b631dc24080620c294fccedbdc3618988671a4f28dc63a0e887634"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "sha256": "655e8fbdad33cb4c6bdc8dce94707c229714dab646be26f90e234d757bb1bd4d"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+            "sha256": "30fcb9485ff9bbd695b9c5153b6862d050c6e4989279175ef542fba4ba16baee"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+            "sha256": "8187787cf01296f2e0af47b29629ddc388ece96646f7f848ded8607a99a2855f"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+            "sha256": "c4a3f3aa2cbaeb772c1be8ca2843aaa3fb69b948d3c08985cd9a5e4a2fdc22a0"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+            "sha256": "a5cbe83d68614834a6b3b22c45718467cd4053636268b9d673c7db26568a1751"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+            "sha256": "1f6f38f478e8fabe8cfe6f107ecb140e157707d215d8492cd26918d17b69a621"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+            "sha256": "944e7532597478337558fb87879aa7a1e167aabef71436014c2bde5ec028ddbb"
+          }
+        ],
+        "distribution": "undefined/tree/v1.0"
+      },
+      "licence": "DESI public data: CC BY 4.0 with the DESI acknowledgement. Fetched on the owner's Mac; not redistributed by us.",
+      "acknowledgement": "This research used data obtained with the Dark Energy Spectroscopic Instrument (DESI). DESI construction and operations is managed by the Lawrence Berkeley National Laboratory. This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of High-Energy Physics, under Contract No. DE-AC02-05CH11231, and by the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility under the same contract. (Full DESI acknowledgement text: https://data.desi.lbl.gov/doc/acknowledgments/)",
+      "files": [
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "sha256": "366234ff96b642e89d2856eff3395b05b8d73246bfc1e890fb30d1579f3d6ea7",
+          "local": "data/chains/desi-dr1/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "sha256": "7620a0738a660d1446f11b6e6a8ab7a8deebc41c0098e43718a6ed4c8b6dc89d",
+          "local": "data/chains/desi-dr1/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "sha256": "d35d3b5885c941918b5ad31e85017dc3207e8b5032654ca96b9f99cb46163853",
+          "local": "data/chains/desi-dr1/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "sha256": "19ac7a06ae82e882b2886858743b49580b341a829e41a9ac3be2c61fa9959e96",
+          "local": "data/chains/desi-dr1/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "sha256": "74b95ed189a6f5abf1d20d7b776cab92fb39598aef665babd4437c4f508dfbc5",
+          "local": "data/chains/desi-dr1/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "sha256": "06657bfebfb4525a99a5e2d3d9d4d59adc72675aaf4aeff2ef72eea94de4861e",
+          "local": "data/chains/desi-dr1/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "sha256": "d02b59e5aff8c66a93411e62544009069fe0fca1f9ef598d9cf552b81ce7999a",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "sha256": "1d516cfc378b95afebb5a8e186a6f7566e544d2f71465ae2e776289393f88a20",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "sha256": "79ccb03b25916c21246065d5b50e488c3191625eaa5994528615da658792deaf",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "sha256": "c25468c96abd846a0ab04d237c5dee6db9f58150e281075f934e25a00ee784dc",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "sha256": "45979469cdfdd7a9cc376ab8829c8c0941291a0af7d7bb84b700f8b047e6a155",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "sha256": "eabc87d8204b0c0b6ea9357f9486f958bbb442a96cba74594b000e94c63daf97",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "sha256": "3ee0dee3430dac02b85adeeeac57971299efb83b48b05e3fc06233fb085c2b64",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "sha256": "52189c59a59e880ea55f00d3c6d82bf51aebb4749777190961f58e3924efc2f1",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "sha256": "442d5c785a32d4de4234007826f19afcd3cdb4c7c95b995cf2df2f7f762b1f7b",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "sha256": "adc4f63dbce75c7138f0cab99f956b7840e31d5651af7cb8865acb52d17ca10f",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "sha256": "4e2f29c6b06beedc27144df2fd8157bed7f5d0c521c6cf1848499768db9a25b3",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "sha256": "0c8dd7be508d69e7c4d552228d3dc51ee394d784e8a08b0e98b2f9253a73d1ab",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "sha256": "b844e7b44e968bfca2a309c90b2f572a83932889bbeb4a2f9017ec903c5fc054",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "sha256": "5ce29dea7b6294032d46d9d7c2cfbe0f4c9f03a13a3ff0b4528802b2edb87682",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "sha256": "b2119d0a397deedbf20212da06509b0cb93da0e424bfea77f7be6ad2f88652ad",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "sha256": "605f72aaff3f1575ec1d6c8963257198aff7baf00b0c369b250a6aa846ea510f",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "sha256": "1a86959d76346954ec01869084f573a4858591e7ff6f3340120896646d87e41f",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "sha256": "a1134bee4820f8f86fefd6646a934b5f37e1b29a0a53a00152d8087ff392f2b0",
+          "local": "data/chains/desi-dr1/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.1.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.1.txt",
+          "sha256": "f6baba203497e95e6adc48656bc87b4cac9452fc59ed776fe2157ba0e83ac27d",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all/chain.1.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.2.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.2.txt",
+          "sha256": "d0fe7d46478c02ed99c476901493da5f5880a6a31f3c8bb93974d97415f72cd0",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all/chain.2.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.3.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.3.txt",
+          "sha256": "7e1e17d82d2b290dfe505377a8a935aca1164edd5ca97aca3059e0da05197240",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all/chain.3.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.4.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.4.txt",
+          "sha256": "ef5026dba30156e3765286cae5ce47e886c3748316a59dcb818f294c2e4357a1",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all/chain.4.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.checkpoint",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.checkpoint",
+          "sha256": "c23b1c022ae8ebd72e97f9a64b4fc8ef42f90be015111729f002167eb18c2259",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all/chain.checkpoint"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.covmat",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.covmat",
+          "sha256": "f37f6a684108e8546d74c8dfaf20749ff80b4b0d6fe2541f4a84649d40879c97",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all/chain.covmat"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.input.yaml",
+          "sha256": "32e4e4218bdd183f4303ea4bb23f2dee738cfa31576633d1a0f05b3f63302901",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all/chain.input.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all/chain.updated.yaml",
+          "sha256": "a515b2ed4161532f42da4cc656b0bbbcf139217ee95536524a8b76a07f88e67a",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all/chain.updated.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "sha256": "86983df708d3c3ddcc10df937b83ef9f2ade8bf756e8ba533aec065ebf65d2ee",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "sha256": "f7ec422dcfcad0231e0d8b1237756876a78ff47c1e1992de628c4775591fbf4d",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "sha256": "829c9e3eb6ada2691c374e1e459aa4f4cb783bf18e97257fba453adc5da8cb89",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "sha256": "0a3a7e1240035233483ca421d2d57f2b99d51c7bbac5a035a09826a7d279f35b",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "sha256": "d34f34981889965c76c15ed7ae39794e50071106c184eb262c394a494a31b3df",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "sha256": "4989cbabafdb046bede0112245961f8b7ac410e8ffc26a173b71ca432dd5247e",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "sha256": "6d1bac9cd70c7cf136f060b155e2d546971df5b64152d25c9174babf51590e81",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "sha256": "c72ea3032e6418988daee5adc1e13cced56a699cbf8b20d20ceb40b760f8dc0a",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "sha256": "0bb10c0df76632e05acc12ead69a953dbe228460ffed65411fcd31731f695911",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "sha256": "9a7b9d2b3e0a682e2e21af12882e703dfd6120ac76f4e67730becbacb3b296ff",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "sha256": "969883e7bcedc848d83741af70f0d06e8d517e0e134d66a6dc0f12815cefc2aa",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "sha256": "9c607222e8b776c16a442e7edd88c0bebd75553d1c13a427af60f28c95f90896",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "sha256": "282dd80a3b10a446330f81584867c3d76cdc948646910b5ada1c63f0f01a763e",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "sha256": "2b3382b36a8c175decf1a5a4bfbf28a1934607411525ae954972fdf2b205c50e",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "sha256": "425a61019f3395879455288d33c4ad3693d3a8f9b63c8c55b5641c97c48f525d",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "sha256": "f3c23db17350b19f90a5cdceec8252be640809e35594839eb0dd4761b2f78abb",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "sha256": "ada4bfb891b631dc24080620c294fccedbdc3618988671a4f28dc63a0e887634",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "sha256": "655e8fbdad33cb4c6bdc8dce94707c229714dab646be26f90e234d757bb1bd4d",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt",
+          "sha256": "30fcb9485ff9bbd695b9c5153b6862d050c6e4989279175ef542fba4ba16baee",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.1.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt",
+          "sha256": "8187787cf01296f2e0af47b29629ddc388ece96646f7f848ded8607a99a2855f",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.2.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt",
+          "sha256": "c4a3f3aa2cbaeb772c1be8ca2843aaa3fb69b948d3c08985cd9a5e4a2fdc22a0",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.3.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt",
+          "sha256": "a5cbe83d68614834a6b3b22c45718467cd4053636268b9d673c7db26568a1751",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.4.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml",
+          "sha256": "1f6f38f478e8fabe8cfe6f107ecb140e157707d215d8492cd26918d17b69a621",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.input.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml",
+          "sha256": "944e7532597478337558fb87879aa7a1e167aabef71436014c2bde5ec028ddbb",
+          "local": "data/chains/desi-dr1/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance.updated.yaml"
+        }
+      ]
+    },
+    {
+      "id": "desi-dr2-cosmo-chains",
+      "kind": "data",
+      "name": "DESI DR2 Results II public Cobaya MCMC chains: flat w0waCDM, wCDM and LCDM runs (re-test M1 of 2404.08056)",
+      "survey": "DESI",
+      "release": "DR2 papers/y3 bao-cosmo-params (v1.0 per DESI's checksum list)",
+      "role": "update",
+      "role_label": "newer release of the paper's data",
+      "used_for": [
+        "M1"
+      ],
+      "value": null,
+      "note": "DESI DR2 runs of the same combinations; data trace only (G17).",
+      "coverage": "base_w_wa: DESI DR2 BAO alone; DESI DR2 BAO + CMB (Planck NPIPE CamSpec TTTEEE + low-l TT, EE + Planck/ACT DR6 lensing v1.2); the same + PantheonPlus, Union3, DESY5. base_w: + each SN sample. base: DESI BAO + CMB. No DES-Dovekie run exists on the server.",
+      "links": {
+        "landing": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/",
+        "papers": [
+          {
+            "label": "DESI DR2 Results II: BAO and cosmological constraints",
+            "url": "https://arxiv.org/abs/2503.14738"
+          }
+        ],
+        "files": [
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "sha256": "00f3766f7a7b6370d21323886cd72869087b2b1346a04d729c8f3bc9e65ef698"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "sha256": "33b154eebdf4e9dca3b8f02ed2680120879d35c10b32fef42261a490104e1dc1"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "sha256": "d4717e7e5a13de851c86f24c87213faccef2b5f8747900274ab509d9dfa40aa2"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "sha256": "c827cd767a4864ca28aa15c902bda32004e803050d4be330e25aefddd78b5c36"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "sha256": "78719bf9ac75a7ba07fc7398916d72b6703a1639e7cdd4cd83a4f0b03807794b"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "sha256": "9467850797a7a0390cb83064a172fa63e1c1be0cddaca1735ea545152fda7b2a"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "sha256": "4462dbd723b1616e683e0304b14846efc3dcd254d5f7aa0be378cfb89283fd89"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "sha256": "7867c93c487b668d9474630d8822640b8d26fa8ce6efeeb3fde0c9950cbe57fa"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "sha256": "854d10529294a74f6efe63a23e034d4d835832ca5dc37f882b2cade5202b6c6b"
+          },
+          {
+            "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "sha256": "aa785fd451329a531987d31ecdb71a7dee8c6822f42e07c03f2f8fa7040e9d1d"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "sha256": "88945caf0964e70afd1c1c6ef5ea8c030a184553934d7923464d51c1c0d58312"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "sha256": "76cf2f88a08e3970277767dddd08b09684ccdb4a7952886301c79c52d2b783b1"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "sha256": "477717fe2da7724d0b7791951ad9772f50fc5fe0eca4e0695db2230937132619"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "sha256": "8a37f0d0e493651bbce0cb1c3552b88ce8ca501aa28951edd29279e176df2604"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "sha256": "4e3be67f246dc8781b8733de968e8f3aab9031000ea230aab90a54e431a3c6da"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "sha256": "f42ac90ddb65d5c6f3366668788a82e180a802db5d268c82b8f75a4fc53682e8"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "sha256": "2155f3b657bc764e10ff47df496a79d23d70c97d9ff4f3d6cd7c0476e6d2b95d"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "sha256": "a773a65bf878d67df7771953058dee70f9a5ae5e90f9d77ed745d369f4567611"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "sha256": "777f5da96d5a74a7cd64e9b0aa9e4111761e44035ce40441d88e6beee20d1180"
+          },
+          {
+            "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "sha256": "f7e9e1797f77cc66ebffa27fd3c3ae48297737a31f912b3dee177ae63fd334f1"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "sha256": "585657af68e7887b31ce69f7444242389f286cc61ca5087e7574435e4fa33a28"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "sha256": "1cbebeddf326aad1489a8d3eba73863766f0f79907c519987a9daf02242d0a26"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "sha256": "52386014f1233ebdd43e1107425d30c343e96c779c78e886a4d4dd877c750c08"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "sha256": "365c826ee49dd58b87d54f5ceca3125674aa8ad4778a03fe95633758d5ccd3e8"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "sha256": "058cc2bc21e9dc0604dc77435d4b9c62d3e4700ec03284e5d045cf45bd88632b"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "sha256": "5b75aa7a7515f872484c887aaa10fd6d8ca35089fee834095b8307566149f25f"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "sha256": "ceae48e3f2066133ad3d6cf5991f7efa9f7aba4a4e340b9c6fbfef7fe547ed40"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml.locked",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml.locked",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "sha256": "07ebca78eea06f2ae0bd1e51d0a203165b52caa618b372f4e22e7fb006b373f7"
+          },
+          {
+            "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "sha256": "3c72f221b08bbf952b0cde2df525e63d474fda20a539113d54545d567acdcab2"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "sha256": "dd9c6f0e0f462791b790d94363dddf95daeb50de1006bf2936ce9a6ff3051e17"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "sha256": "c078a4d56be3b5799998b56d5e8390d3deffb32dfec3cb17cfda5fff5fbb4a09"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "sha256": "a3ef5aa2a3302d13359b927c1066a8008d466c67768b9736d889dc5622df36c1"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "sha256": "32c00d724262046dd81709654bbe120da05212b3656fdb978588704baaaba0d4"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "sha256": "1fe56f71e41ff531c204ce0419007362c398550be5f25888a61c18bb98387959"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "sha256": "6252bea622d6cf091e5c7720bcd7474b9b8694029fd12fd5feab92c32cee81c6"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "sha256": "35ab06964bb6c7669a614b2aaa4e2391a4dfa5ae38faa64a19bee80ea757d832"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "sha256": "085b4abe2830b32e688c0b3e6c76d7b7d0167827013edc6ab77b1ed1d3bb4483"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "sha256": "3a3d8d5143c55b7fb0963a78c740730854088127d498e504650c6a2cbe720aa2"
+          },
+          {
+            "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "sha256": "baf2bd9581615256ffe1b02110361d03576e7d79710273ac548b2195ff576ae3"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.1.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.1.txt",
+            "sha256": "8e7ba59d39395a6020e4afcb8b3e0cac9c58b5d54a27ce29933cc694eccc5d89"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.2.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.2.txt",
+            "sha256": "a4540a6b1f8d386b49b8952a6f41e06bd7ab6bf955c360418c4f9f9572751fcb"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.3.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.3.txt",
+            "sha256": "37c503e538793e48d032479151a4a85c9badf0441b77d226a186320b1f58bd65"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.4.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.4.txt",
+            "sha256": "110b4e6d4345c1c26662fdccc9818da9a16bff55f8208b2c3262587f173d7ed3"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.checkpoint",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.checkpoint",
+            "sha256": "eba445a427b232d4fbe26b64656c691f99cf654718058f276cfecf6220ecf513"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.covmat",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.covmat",
+            "sha256": "b5309a4fdbac649a7f2d2ec9d47dc75100a39232a8c6dead20823fbf1d0c3afa"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.input.yaml",
+            "sha256": "b12021fe202f8d0508698a61c91b3cd4ed372599fa177475884691dc483be087"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.margestats",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.margestats",
+            "sha256": "806828ab0663f5c5a1fd93f512946b4668fc2d21e3561b01eb16d547de724ea6"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.progress",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.progress",
+            "sha256": "18e3c5b58b19e14218e989c7a4cc6a5ceb6ce3c9ba95a076bfb8cc9109dd538d"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all/chain.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.updated.yaml",
+            "sha256": "959b2994bf19c9f60b3bc53bd0ef0005db7c8327e91d9b732a84fb6a275118a7"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "sha256": "8c783ebf283a205b7f569ce36a6694a32646ced5e28fd3b4683742733f6165e0"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "sha256": "cd4f2ff3a66aa92aceecd47c8452520c2de09d887f231fc0df033cd68597a886"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "sha256": "f7f8dbf28ff23d371e0b987b938d321adb920f1a09e97f746b3c0bb2d6247a01"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "sha256": "4a3607867d34890832f431c4d61947e5572a72ff1a407141f4b8cb8d3d7ec769"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "sha256": "694a95d8e730390201aa1b4654b1f71b918cccd255e24dbdcbc379fb23322cc0"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "sha256": "e8a4cd6fab23dd631af3b0cd1382435dda9df9e083b319d85f0ef2dfa6667466"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "sha256": "03b845a841ea030aaec7b3f82a541be53cd4b2891aea7f2198f13f230bd4bc14"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "sha256": "3fc6e841b7fd9cb21bac340636f1ba23bb96c75fa8b3b292fa5fbb4426bc8d8a"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "sha256": "3f8100cb9494feeb1f2bd2f9441fd5031cea197510eb5661e0c703504d65a484"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "sha256": "b6af043a9557c66ac94a984f322984d7720e6e0707702435ecc471d6ca28fef8"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "sha256": "db81d299d59051ae5e1e8f67952320e08a1644a4a1f8d19267705aee32798877"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "sha256": "442390266f6a3bfe88e9c7cd8e29d1e7cff47fc8582f3a3af80a6b40b9f83939"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "sha256": "1c92edf523df34784633f6852f7564f3d953203ae939d5d2e8cd4c3fd6f580ae"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "sha256": "b17dc02689c3a30dd34a96d91ac35180006f17d10b82331396ef55ce999594af"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "sha256": "cb933f87d512f850a095d124fb8dd20237e743479cb37679790a45c0996e1716"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "sha256": "ef0584fc6628314964db8442deae7ff7df6d9a0c50c224afc6bbd36c05d82417"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "sha256": "76d33ed53cbe0c673686c8c9cd1d512e527f9ff3761df79667e63374813d75b8"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "sha256": "03b712b18991c4b125851d3d924936fca03f6047ac4b68fb888067e9ef05f3c1"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "sha256": "f78067d506df6bef5fe0925a748f598672f079b24012cfec78262b8d5071d417"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "sha256": "ce490ac81bd61fa3ca65738666dde4a1f3d07c64983fdc0d2646cdab1a9a14b9"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "sha256": "c228de7bbaec19ddb22eec25c3dd7c40ef218976c020a7b55dd1c78dc3a638c5"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "sha256": "01bb30f43b3207d8575cc16354159fceff2ad4deffacc87964b0aef7f8e8ee44"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "sha256": "db12623c8c69c03ad219b28bbc517416fc941cbb1e717054344f30b4e43a4adc"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "sha256": "339312d9b7d3027147c38433fb4335cb9a12585776c4dfffc592c7c43af9a5ff"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "sha256": "2f649a5afba2976687f507838817a44782ae1d1eda21d8f62e6abe0617d66a9f"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "sha256": "815c747e04d589f67337e3c3fc5a3c56243d6da9ccd9cbca2b23ca1934c6ebfa"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "sha256": "426a4d1b6e6acccd97c258e39e716d0f9198013e357909b4b3caf82842fef4c2"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "sha256": "eab0987b7931ad41f0fea51df9e3f7ab7c3ae1682bca05e8064a924be9151245"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "sha256": "2ef7d91201cd8e5d2e526c8f104dc1664a314e3588904cf4a8603de0efc6794a"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "sha256": "0a30a0d443ca674e471021a8399d262a3a5617bd310ca39614f18e67833c6497"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+            "sha256": "f95d091203f615e1654ea9f4fea332db08fa66c59a5fe188b4915e67e1d73b11"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+            "sha256": "23aac58326257d207b8ee3699d21ed908e46238e42041d8c2ccf12fd85c8b839"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+            "sha256": "9e0998c5685e7552b94fd45e985dd137604f34692bebbc6fb922a1588669ab6a"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+            "sha256": "7710ababc2ab0c7fb5f3f67c8b790409703bce18707a2f99a1cd3fea531b4c20"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+            "sha256": "fa4a3634368730592370908635265ad3aba753c5bf8c02e61fe7d34af83fab53"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+            "sha256": "5498d18d69524912319300fe5587564cb9a80493cf136814f6b876a8653a2dee"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+            "sha256": "84d57fe317d2928f24f7907215d3e3fe5cbe4666e8b77fd97ae94dc64dfcc131"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+            "sha256": "60f7a661abb62b4b3033c6ec70efec8b2a36e94ed4bbf2ce262c7e6af168b888"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+            "sha256": "80e87b63bb89338c44b4f806ddb3e418e30868823f6678b0cf96525f69b847ef"
+          },
+          {
+            "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+            "sha256": "2fc4c5ccca64f718992409b28e54f367603056073b9ca3d2781ed0e18a9ec3cd"
+          }
+        ],
+        "distribution": "undefined/tree/papers/y3/bao-cosmo-params"
+      },
+      "licence": "DESI public data: CC BY 4.0 with the DESI acknowledgement. Fetched on the owner's Mac; not redistributed by us.",
+      "acknowledgement": "This research used data obtained with the Dark Energy Spectroscopic Instrument (DESI). DESI construction and operations is managed by the Lawrence Berkeley National Laboratory. This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of High-Energy Physics, under Contract No. DE-AC02-05CH11231, and by the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility under the same contract. (Full DESI acknowledgement text: https://data.desi.lbl.gov/doc/acknowledgments/)",
+      "files": [
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "sha256": "00f3766f7a7b6370d21323886cd72869087b2b1346a04d729c8f3bc9e65ef698",
+          "local": "data/chains/desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "sha256": "33b154eebdf4e9dca3b8f02ed2680120879d35c10b32fef42261a490104e1dc1",
+          "local": "data/chains/desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "sha256": "d4717e7e5a13de851c86f24c87213faccef2b5f8747900274ab509d9dfa40aa2",
+          "local": "data/chains/desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "sha256": "c827cd767a4864ca28aa15c902bda32004e803050d4be330e25aefddd78b5c36",
+          "local": "data/chains/desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "sha256": "78719bf9ac75a7ba07fc7398916d72b6703a1639e7cdd4cd83a4f0b03807794b",
+          "local": "data/chains/desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "sha256": "9467850797a7a0390cb83064a172fa63e1c1be0cddaca1735ea545152fda7b2a",
+          "local": "data/chains/desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "sha256": "4462dbd723b1616e683e0304b14846efc3dcd254d5f7aa0be378cfb89283fd89",
+          "local": "data/chains/desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "sha256": "7867c93c487b668d9474630d8822640b8d26fa8ce6efeeb3fde0c9950cbe57fa",
+          "local": "data/chains/desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "sha256": "854d10529294a74f6efe63a23e034d4d835832ca5dc37f882b2cade5202b6c6b",
+          "local": "data/chains/desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress"
+        },
+        {
+          "path": "base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "sha256": "aa785fd451329a531987d31ecdb71a7dee8c6822f42e07c03f2f8fa7040e9d1d",
+          "local": "data/chains/desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "sha256": "88945caf0964e70afd1c1c6ef5ea8c030a184553934d7923464d51c1c0d58312",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "sha256": "76cf2f88a08e3970277767dddd08b09684ccdb4a7952886301c79c52d2b783b1",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "sha256": "477717fe2da7724d0b7791951ad9772f50fc5fe0eca4e0695db2230937132619",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "sha256": "8a37f0d0e493651bbce0cb1c3552b88ce8ca501aa28951edd29279e176df2604",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "sha256": "4e3be67f246dc8781b8733de968e8f3aab9031000ea230aab90a54e431a3c6da",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "sha256": "f42ac90ddb65d5c6f3366668788a82e180a802db5d268c82b8f75a4fc53682e8",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "sha256": "2155f3b657bc764e10ff47df496a79d23d70c97d9ff4f3d6cd7c0476e6d2b95d",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "sha256": "a773a65bf878d67df7771953058dee70f9a5ae5e90f9d77ed745d369f4567611",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "sha256": "777f5da96d5a74a7cd64e9b0aa9e4111761e44035ce40441d88e6beee20d1180",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress"
+        },
+        {
+          "path": "base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "sha256": "f7e9e1797f77cc66ebffa27fd3c3ae48297737a31f912b3dee177ae63fd334f1",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "sha256": "585657af68e7887b31ce69f7444242389f286cc61ca5087e7574435e4fa33a28",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "sha256": "1cbebeddf326aad1489a8d3eba73863766f0f79907c519987a9daf02242d0a26",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "sha256": "52386014f1233ebdd43e1107425d30c343e96c779c78e886a4d4dd877c750c08",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "sha256": "365c826ee49dd58b87d54f5ceca3125674aa8ad4778a03fe95633758d5ccd3e8",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "sha256": "058cc2bc21e9dc0604dc77435d4b9c62d3e4700ec03284e5d045cf45bd88632b",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "sha256": "5b75aa7a7515f872484c887aaa10fd6d8ca35089fee834095b8307566149f25f",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "sha256": "ceae48e3f2066133ad3d6cf5991f7efa9f7aba4a4e340b9c6fbfef7fe547ed40",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml.locked",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml.locked",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml.locked"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "sha256": "07ebca78eea06f2ae0bd1e51d0a203165b52caa618b372f4e22e7fb006b373f7",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress"
+        },
+        {
+          "path": "base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "sha256": "3c72f221b08bbf952b0cde2df525e63d474fda20a539113d54545d567acdcab2",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "sha256": "dd9c6f0e0f462791b790d94363dddf95daeb50de1006bf2936ce9a6ff3051e17",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "sha256": "c078a4d56be3b5799998b56d5e8390d3deffb32dfec3cb17cfda5fff5fbb4a09",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "sha256": "a3ef5aa2a3302d13359b927c1066a8008d466c67768b9736d889dc5622df36c1",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "sha256": "32c00d724262046dd81709654bbe120da05212b3656fdb978588704baaaba0d4",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "sha256": "1fe56f71e41ff531c204ce0419007362c398550be5f25888a61c18bb98387959",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "sha256": "6252bea622d6cf091e5c7720bcd7474b9b8694029fd12fd5feab92c32cee81c6",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "sha256": "35ab06964bb6c7669a614b2aaa4e2391a4dfa5ae38faa64a19bee80ea757d832",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "sha256": "085b4abe2830b32e688c0b3e6c76d7b7d0167827013edc6ab77b1ed1d3bb4483",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "sha256": "3a3d8d5143c55b7fb0963a78c740730854088127d498e504650c6a2cbe720aa2",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress"
+        },
+        {
+          "path": "base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "sha256": "baf2bd9581615256ffe1b02110361d03576e7d79710273ac548b2195ff576ae3",
+          "local": "data/chains/desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.1.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.1.txt",
+          "sha256": "8e7ba59d39395a6020e4afcb8b3e0cac9c58b5d54a27ce29933cc694eccc5d89",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all/chain.1.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.2.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.2.txt",
+          "sha256": "a4540a6b1f8d386b49b8952a6f41e06bd7ab6bf955c360418c4f9f9572751fcb",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all/chain.2.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.3.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.3.txt",
+          "sha256": "37c503e538793e48d032479151a4a85c9badf0441b77d226a186320b1f58bd65",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all/chain.3.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.4.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.4.txt",
+          "sha256": "110b4e6d4345c1c26662fdccc9818da9a16bff55f8208b2c3262587f173d7ed3",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all/chain.4.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.checkpoint",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.checkpoint",
+          "sha256": "eba445a427b232d4fbe26b64656c691f99cf654718058f276cfecf6220ecf513",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all/chain.checkpoint"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.covmat",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.covmat",
+          "sha256": "b5309a4fdbac649a7f2d2ec9d47dc75100a39232a8c6dead20823fbf1d0c3afa",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all/chain.covmat"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.input.yaml",
+          "sha256": "b12021fe202f8d0508698a61c91b3cd4ed372599fa177475884691dc483be087",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all/chain.input.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.margestats",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.margestats",
+          "sha256": "806828ab0663f5c5a1fd93f512946b4668fc2d21e3561b01eb16d547de724ea6",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all/chain.margestats"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.progress",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.progress",
+          "sha256": "18e3c5b58b19e14218e989c7a4cc6a5ceb6ce3c9ba95a076bfb8cc9109dd538d",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all/chain.progress"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all/chain.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all/chain.updated.yaml",
+          "sha256": "959b2994bf19c9f60b3bc53bd0ef0005db7c8327e91d9b732a84fb6a275118a7",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all/chain.updated.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "sha256": "8c783ebf283a205b7f569ce36a6694a32646ced5e28fd3b4683742733f6165e0",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "sha256": "cd4f2ff3a66aa92aceecd47c8452520c2de09d887f231fc0df033cd68597a886",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "sha256": "f7f8dbf28ff23d371e0b987b938d321adb920f1a09e97f746b3c0bb2d6247a01",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "sha256": "4a3607867d34890832f431c4d61947e5572a72ff1a407141f4b8cb8d3d7ec769",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "sha256": "694a95d8e730390201aa1b4654b1f71b918cccd255e24dbdcbc379fb23322cc0",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "sha256": "e8a4cd6fab23dd631af3b0cd1382435dda9df9e083b319d85f0ef2dfa6667466",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "sha256": "03b845a841ea030aaec7b3f82a541be53cd4b2891aea7f2198f13f230bd4bc14",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "sha256": "3fc6e841b7fd9cb21bac340636f1ba23bb96c75fa8b3b292fa5fbb4426bc8d8a",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "sha256": "3f8100cb9494feeb1f2bd2f9441fd5031cea197510eb5661e0c703504d65a484",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "sha256": "b6af043a9557c66ac94a984f322984d7720e6e0707702435ecc471d6ca28fef8",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "sha256": "db81d299d59051ae5e1e8f67952320e08a1644a4a1f8d19267705aee32798877",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "sha256": "442390266f6a3bfe88e9c7cd8e29d1e7cff47fc8582f3a3af80a6b40b9f83939",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "sha256": "1c92edf523df34784633f6852f7564f3d953203ae939d5d2e8cd4c3fd6f580ae",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "sha256": "b17dc02689c3a30dd34a96d91ac35180006f17d10b82331396ef55ce999594af",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "sha256": "cb933f87d512f850a095d124fb8dd20237e743479cb37679790a45c0996e1716",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "sha256": "ef0584fc6628314964db8442deae7ff7df6d9a0c50c224afc6bbd36c05d82417",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "sha256": "76d33ed53cbe0c673686c8c9cd1d512e527f9ff3761df79667e63374813d75b8",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "sha256": "03b712b18991c4b125851d3d924936fca03f6047ac4b68fb888067e9ef05f3c1",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "sha256": "f78067d506df6bef5fe0925a748f598672f079b24012cfec78262b8d5071d417",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "sha256": "ce490ac81bd61fa3ca65738666dde4a1f3d07c64983fdc0d2646cdab1a9a14b9",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "sha256": "c228de7bbaec19ddb22eec25c3dd7c40ef218976c020a7b55dd1c78dc3a638c5",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "sha256": "01bb30f43b3207d8575cc16354159fceff2ad4deffacc87964b0aef7f8e8ee44",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "sha256": "db12623c8c69c03ad219b28bbc517416fc941cbb1e717054344f30b4e43a4adc",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "sha256": "339312d9b7d3027147c38433fb4335cb9a12585776c4dfffc592c7c43af9a5ff",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "sha256": "2f649a5afba2976687f507838817a44782ae1d1eda21d8f62e6abe0617d66a9f",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "sha256": "815c747e04d589f67337e3c3fc5a3c56243d6da9ccd9cbca2b23ca1934c6ebfa",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "sha256": "426a4d1b6e6acccd97c258e39e716d0f9198013e357909b4b3caf82842fef4c2",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "sha256": "eab0987b7931ad41f0fea51df9e3f7ab7c3ae1682bca05e8064a924be9151245",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "sha256": "2ef7d91201cd8e5d2e526c8f104dc1664a314e3588904cf4a8603de0efc6794a",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "sha256": "0a30a0d443ca674e471021a8399d262a3a5617bd310ca39614f18e67833c6497",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt",
+          "sha256": "f95d091203f615e1654ea9f4fea332db08fa66c59a5fe188b4915e67e1d73b11",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.1.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt",
+          "sha256": "23aac58326257d207b8ee3699d21ed908e46238e42041d8c2ccf12fd85c8b839",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.2.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt",
+          "sha256": "9e0998c5685e7552b94fd45e985dd137604f34692bebbc6fb922a1588669ab6a",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.3.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt",
+          "sha256": "7710ababc2ab0c7fb5f3f67c8b790409703bce18707a2f99a1cd3fea531b4c20",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.4.txt"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint",
+          "sha256": "fa4a3634368730592370908635265ad3aba753c5bf8c02e61fe7d34af83fab53",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.checkpoint"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat",
+          "sha256": "5498d18d69524912319300fe5587564cb9a80493cf136814f6b876a8653a2dee",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.covmat"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml",
+          "sha256": "84d57fe317d2928f24f7907215d3e3fe5cbe4666e8b77fd97ae94dc64dfcc131",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.input.yaml"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats",
+          "sha256": "60f7a661abb62b4b3033c6ec70efec8b2a36e94ed4bbf2ce262c7e6af168b888",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.margestats"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress",
+          "sha256": "80e87b63bb89338c44b4f806ddb3e418e30868823f6678b0cf96525f69b847ef",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.progress"
+        },
+        {
+          "path": "base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "url": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/cobaya/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml",
+          "sha256": "2fc4c5ccca64f718992409b28e54f367603056073b9ca3d2781ed0e18a9ec3cd",
+          "local": "data/chains/desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain.updated.yaml"
+        }
+      ]
+    },
+    {
+      "id": "desi-dr2-cosmology",
+      "kind": "published_value",
+      "name": "DESI DR2 (2025) cosmological constraints",
+      "survey": "DESI",
+      "release": "DR2 (2025)",
+      "role": "reference_value",
+      "role_label": "published value, taken as printed",
+      "used_for": [
+        "M1"
+      ],
+      "value": null,
+      "note": "Numbers printed in DESI DR2 Results II, compared with the M1 chain results.",
+      "coverage": null,
+      "links": {
+        "landing": "https://arxiv.org/abs/2503.14738",
+        "papers": [
+          {
+            "label": "DESI DR2 Results II",
+            "url": "https://arxiv.org/abs/2503.14738"
+          }
+        ],
+        "files": [],
+        "distribution": null
+      },
+      "licence": "Number quoted from the paper",
+      "acknowledgement": null,
+      "files": []
+    }
+  ]
+}

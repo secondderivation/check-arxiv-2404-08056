@@ -1,0 +1,99 @@
+
+=== dr2_w0wa_PP: desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain ===
+  samples after burn-in (30% removed here, Addendum A1): 70643, effective 42805
+  Gelman-Rubin R-1 (getdist, over chain files): 0.0077
+  w0 = -0.8380 +- 0.0552; wa = -0.6166 +- 0.2076 (68% equal-tail -0.822 .. -0.410); Om = 0.3114 +- 0.0057
+  DETF pivot: a_p = 0.7624, z_p = 0.3117, w_p = -0.9845 +- 0.0247 (formula sd 0.0247); corr(w_p, wa) = +9.99e-17; sd(wa) unchanged by construction
+  highest-posterior sample: w0 = -0.8630, wa = -0.5271, w_p(DETF) = -0.9882, w at the paper's a_p 0.79/0.75 = -0.9737/-0.9947
+  principal axis angle 103.54 deg; axis ratio 8.9; offset d = (E[w_p]+1)/sd(w_p) = +0.628
+    line w(z=0.26) = -1: angle 101.66 deg, |axis - line| = 1.88 deg; E[w(z=0.26)] = -0.9652 +- 0.0256, offset +1.362 sd
+    line w(z=0.33) = -1: angle 103.93 deg, |axis - line| = 0.39 deg; E[w(z=0.33)] = -0.9910 +- 0.0248, offset +0.364 sd
+  zone masses: Z1 0.00093  Z2 0.00065  Z3 0.00028  Z4 0.99814; outside Z4 0.00186
+  w0 + wa: mean -1.455; 99.9th weighted percentile -1.009; max over samples -0.898
+  P(wa < 0) = 0.99935; crossing in the past for 0.9984 of the mass; z_x median 0.358, 68% 0.286 .. 0.447
+
+=== dr2_w_PP: desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain ===
+  samples after burn-in (30% removed here, Addendum A1): 35846, effective 21722
+  Gelman-Rubin R-1 (getdist, over chain files): 0.0099
+  wCDM: w = -0.9951 +- 0.0226
+
+=== dr2_w0wa_U3: desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain ===
+  samples after burn-in (30% removed here, Addendum A1): 76106, effective 45952
+  Gelman-Rubin R-1 (getdist, over chain files): 0.0075
+  w0 = -0.6669 +- 0.0885; wa = -1.0853 +- 0.2933 (68% equal-tail -1.375 .. -0.792); Om = 0.3275 +- 0.0086
+  DETF pivot: a_p = 0.7185, z_p = 0.3918, w_p = -0.9724 +- 0.0318 (formula sd 0.0318); corr(w_p, wa) = -5.33e-18; sd(wa) unchanged by construction
+  highest-posterior sample: w0 = -0.7007, wa = -0.9773, w_p(DETF) = -0.9758, w at the paper's a_p 0.79/0.75 = -0.9059/-0.9450
+  principal axis angle 105.89 deg; axis ratio 10.0; offset d = (E[w_p]+1)/sd(w_p) = +0.868
+    line w(z=0.26) = -1: angle 101.66 deg, |axis - line| = 4.23 deg; E[w(z=0.26)] = -0.8908 +- 0.0387, offset +2.821 sd
+    line w(z=0.33) = -1: angle 103.93 deg, |axis - line| = 1.95 deg; E[w(z=0.33)] = -0.9362 +- 0.0333, offset +1.918 sd
+  zone masses: Z1 0.00007  Z2 0.00003  Z3 0.00000  Z4 0.99989; outside Z4 0.00011
+  w0 + wa: mean -1.752; 99.9th weighted percentile -1.167; max over samples -0.902
+  P(wa < 0) = 1.00000; crossing in the past for 0.9999 of the mass; z_x median 0.444, 68% 0.384 .. 0.515
+
+=== dr2_w_U3: desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain ===
+  samples after burn-in (30% removed here, Addendum A1): 40370, effective 24585
+  Gelman-Rubin R-1 (getdist, over chain files): 0.0071
+  wCDM: w = -0.9966 +- 0.0266
+
+=== dr2_w0wa_DY5: desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain ===
+  samples after burn-in (30% removed here, Addendum A1): 42818, effective 26061
+  Gelman-Rubin R-1 (getdist, over chain files): 0.0091
+  w0 = -0.7521 +- 0.0572; wa = -0.8611 +- 0.2213 (68% equal-tail -1.083 .. -0.642); Om = 0.3191 +- 0.0056
+  DETF pivot: a_p = 0.7660, z_p = 0.3055, w_p = -0.9536 +- 0.0243 (formula sd 0.0243); corr(w_p, wa) = +2.87e-16; sd(wa) unchanged by construction
+  highest-posterior sample: w0 = -0.7583, wa = -0.8315, w_p(DETF) = -0.9529, w at the paper's a_p 0.79/0.75 = -0.9329/-0.9662
+  principal axis angle 103.32 deg; axis ratio 9.6; offset d = (E[w_p]+1)/sd(w_p) = +1.909
+    line w(z=0.26) = -1: angle 101.66 deg, |axis - line| = 1.66 deg; E[w(z=0.26)] = -0.9298 +- 0.0251, offset +2.802 sd
+    line w(z=0.33) = -1: angle 103.93 deg, |axis - line| = 0.62 deg; E[w(z=0.33)] = -0.9657 +- 0.0245, offset +1.398 sd
+  zone masses: Z1 0.00000  Z2 0.00000  Z3 0.00000  Z4 1.00000; outside Z4 0.00000
+  w0 + wa: mean -1.613; 99.9th weighted percentile -1.132; max over samples -1.016
+  P(wa < 0) = 1.00000; crossing in the past for 1.0000 of the mass; z_x median 0.406, 68% 0.349 .. 0.480
+
+=== dr2_w_DY5: desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain ===
+  samples after burn-in (30% removed here, Addendum A1): 54482, effective 32951
+  Gelman-Rubin R-1 (getdist, over chain files): 0.0062
+  wCDM: w = -0.9706 +- 0.0213
+
+=== dr2_w0wa_CMB: desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain ===
+  samples after burn-in (30% removed here, Addendum A1): 60038, effective 36528
+  Gelman-Rubin R-1 (getdist, over chain files): 0.0065
+  w0 = -0.4178 +- 0.2051; wa = -1.7515 +- 0.5796 (68% equal-tail -2.368 .. -1.148); Om = 0.3529 +- 0.0210
+  DETF pivot: a_p = 0.6541, z_p = 0.5288, w_p = -1.0236 +- 0.0431 (formula sd 0.0431); corr(w_p, wa) = +1.73e-15; sd(wa) unchanged by construction
+  highest-posterior sample: w0 = -0.4248, wa = -1.7630, w_p(DETF) = -1.0346, w at the paper's a_p 0.79/0.75 = -0.7950/-0.8655
+  principal axis angle 109.17 deg; axis ratio 15.1; offset d = (E[w_p]+1)/sd(w_p) = -0.548
+    line w(z=0.26) = -1: angle 101.66 deg, |axis - line| = 7.51 deg; E[w(z=0.26)] = -0.7792 +- 0.0916, offset +2.410 sd
+    line w(z=0.33) = -1: angle 103.93 deg, |axis - line| = 5.23 deg; E[w(z=0.33)] = -0.8523 +- 0.0712, offset +2.074 sd
+  zone masses: Z1 0.00182  Z2 0.00005  Z3 0.00050  Z4 0.99763; outside Z4 0.00237
+  w0 + wa: mean -2.169; 99.9th weighted percentile -1.052; max over samples -0.763
+  P(wa < 0) = 0.99910; crossing in the past for 0.9981 of the mass; z_x median 0.499, 68% 0.439 .. 0.555
+
+=== dr2_lcdm_CMB: desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain ===
+  samples after burn-in (30% removed here, Addendum A1): 41924, effective 25389
+  Gelman-Rubin R-1 (getdist, over chain files): 0.0067
+
+=== dr2_w0wa_BAO: desi-dr2/base_w_wa/desi-bao-all/chain ===
+  samples after burn-in (30% removed here, Addendum A1): 82862, effective 57823
+  Gelman-Rubin R-1 (getdist, over chain files): 0.0027
+  w0 = -0.4770 +- 0.2680; wa = -1.6626 +- 0.9709 (68% equal-tail -2.645 .. -0.639); Om = 0.3520 +- 0.0353
+  DETF pivot: a_p = 0.7350, z_p = 0.3606, w_p = -0.9176 +- 0.0750 (formula sd 0.0750); corr(w_p, wa) = +1.60e-16; sd(wa) unchanged by construction
+  highest-posterior sample: w0 = -0.2026, wa = -2.6447, w_p(DETF) = -0.9034, w at the paper's a_p 0.79/0.75 = -0.7579/-0.8637
+  principal axis angle 104.92 deg; axis ratio 13.9; offset d = (E[w_p]+1)/sd(w_p) = +1.098
+    line w(z=0.26) = -1: angle 101.66 deg, |axis - line| = 3.26 deg; E[w(z=0.26)] = -0.8201 +- 0.0942, offset +1.910 sd
+    line w(z=0.33) = -1: angle 103.93 deg, |axis - line| = 0.99 deg; E[w(z=0.33)] = -0.8895 +- 0.0768, offset +1.439 sd
+  zone masses: Z1 0.00530  Z2 0.04372  Z3 0.03983  Z4 0.91116; outside Z4 0.08884
+  w0 + wa: mean -2.140; 99.9th weighted percentile -0.021; max over samples -0.002
+  P(wa < 0) = 0.92480; crossing in the past for 0.9510 of the mass; z_x median 0.443, 68% 0.359 .. 0.560
+
+=== summary and tolerances ===
+  PP: C3 z_p 0.312 | C4 |E[w_p]+1| = 0.0155 (<=0.025 PASS, <=0.06 PASS) | C5 |corr| 1.0e-16 (PASS), sd(w_p)/sd(w_const chain) 1.095 (PASS) | C6 |d| = 0.63 (<=1) | C7 outside Z4 0.0019 (PASS), w0+wa p99.9 -1.009 (< -0.3 PASS) | C8 P(wa<0) 0.9994 (PASS), z_p in z_x 68% [0.286, 0.447]: PASS
+  U3: C3 z_p 0.392 | C4 |E[w_p]+1| = 0.0276 (<=0.025 FAIL, <=0.06 PASS) | C5 |corr| 5.3e-18 (PASS), sd(w_p)/sd(w_const chain) 1.196 (PASS) | C6 |d| = 0.87 (<=1) | C7 outside Z4 0.0001 (PASS), w0+wa p99.9 -1.167 (< -0.3 PASS) | C8 P(wa<0) 1.0000 (PASS), z_p in z_x 68% [0.384, 0.515]: PASS
+  DY5: C3 z_p 0.306 | C4 |E[w_p]+1| = 0.0464 (<=0.025 FAIL, <=0.06 PASS) | C5 |corr| 2.9e-16 (PASS), sd(w_p)/sd(w_const chain) 1.142 (PASS) | C6 |d| = 1.91 ((1,2]) | C7 outside Z4 0.0000 (PASS), w0+wa p99.9 -1.132 (< -0.3 PASS) | C8 P(wa<0) 1.0000 (PASS), z_p in z_x 68% [0.349, 0.480]: FAIL
+
+=== DR2: our means and sds vs DESI's .margestats (68% column) ===
+  PP w: ours -0.8380 +- 0.0552 | DESI margestats -0.838\pm 0.055 -> mean diff +0.0000, sd ratio 1.003
+  PP wa: ours -0.6166 +- 0.2076 | DESI margestats -0.62^{+0.22}_{-0.19} -> mean diff +0.0034, sd ratio 1.012
+  U3 w: ours -0.6669 +- 0.0885 | DESI margestats -0.667\pm 0.088 -> mean diff +0.0001, sd ratio 1.006
+  U3 wa: ours -1.0853 +- 0.2933 | DESI margestats -1.09^{+0.31}_{-0.27} -> mean diff +0.0047, sd ratio 1.011
+  DY5 w: ours -0.7521 +- 0.0572 | DESI margestats -0.752\pm 0.057 -> mean diff -0.0001, sd ratio 1.004
+  DY5 wa: ours -0.8611 +- 0.2213 | DESI margestats -0.86^{+0.23}_{-0.20} -> mean diff -0.0011, sd ratio 1.029
+  CMB w: ours -0.4178 +- 0.2051 | DESI margestats -0.42\pm 0.21 -> mean diff +0.0022, sd ratio 0.976
+  CMB wa: ours -1.7515 +- 0.5796 | DESI margestats -1.75\pm 0.58 -> mean diff -0.0015, sd ratio 0.999

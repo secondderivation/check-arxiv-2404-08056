@@ -1,0 +1,129 @@
+{
+  "rows": [
+    {
+      "stage": "V2",
+      "stage_label": "first pass",
+      "role": "A",
+      "role_label": "first check, corrections and responses",
+      "provider": "claude",
+      "model": "claude-opus-5-5",
+      "reasoning_effort": "high",
+      "client": "Claude Code 2.1.302",
+      "tokens_input": 371,
+      "tokens_cache_read": 43987488,
+      "tokens_cache_write": 1084509,
+      "tokens_output": 156346,
+      "tokens_reasoning": 58768,
+      "model_minutes": 57,
+      "measured": "transcript"
+    },
+    {
+      "stage": "V4",
+      "stage_label": "independent re-check",
+      "role": "B",
+      "role_label": "independent re-check with its own code",
+      "provider": "codex",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "client": "Codex Desktop 0.163.0-alpha.10.2",
+      "tokens_input": 132660,
+      "tokens_cache_read": 3664384,
+      "tokens_cache_write": 0,
+      "tokens_output": 32021,
+      "tokens_reasoning": 6992,
+      "model_minutes": 16,
+      "measured": "transcript"
+    },
+    {
+      "stage": "V4",
+      "stage_label": "independent re-check",
+      "role": "A",
+      "role_label": "first check, corrections and responses",
+      "provider": "claude",
+      "model": "claude-opus-5-5",
+      "reasoning_effort": "high",
+      "client": "Claude Code 2.1.302",
+      "tokens_input": 88,
+      "tokens_cache_read": 8239901,
+      "tokens_cache_write": 454827,
+      "tokens_output": 33603,
+      "tokens_reasoning": 11201,
+      "model_minutes": 8,
+      "measured": "transcript"
+    },
+    {
+      "stage": "V5",
+      "stage_label": "critique",
+      "role": "C",
+      "role_label": "critic: tried to drop or soften each note",
+      "provider": "codex",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "client": "Codex Desktop 0.163.0-alpha.10.2",
+      "tokens_input": 198803,
+      "tokens_cache_read": 3760896,
+      "tokens_cache_write": 0,
+      "tokens_output": 21598,
+      "tokens_reasoning": 3359,
+      "model_minutes": 11,
+      "measured": "transcript"
+    },
+    {
+      "stage": "V6",
+      "stage_label": "response to the critique",
+      "role": "A",
+      "role_label": "first check, corrections and responses",
+      "provider": "claude",
+      "model": "claude-opus-5-5",
+      "reasoning_effort": "high",
+      "client": "Claude Code 2.1.302",
+      "tokens_input": 52,
+      "tokens_cache_read": 6601669,
+      "tokens_cache_write": 202770,
+      "tokens_output": 16129,
+      "tokens_reasoning": 3353,
+      "model_minutes": 6,
+      "measured": "transcript"
+    }
+  ],
+  "models": [
+    {
+      "provider": "claude",
+      "model": "claude-opus-5-5",
+      "client": "Claude Code 2.1.302",
+      "reasoning_effort": "high",
+      "roles": [
+        "A"
+      ],
+      "tokens_in": 60571675,
+      "tokens_out": 206078,
+      "model_minutes": 71
+    },
+    {
+      "provider": "codex",
+      "model": "gpt-6-astra",
+      "client": "Codex Desktop 0.163.0-alpha.10.2",
+      "reasoning_effort": "high",
+      "roles": [
+        "B",
+        "C"
+      ],
+      "tokens_in": 7756743,
+      "tokens_out": 53619,
+      "model_minutes": 27
+    }
+  ],
+  "totals": {
+    "tokens_in": 68328418,
+    "tokens_in_fresh": 331974,
+    "tokens_cache_read": 66254338,
+    "tokens_cache_write": 1742106,
+    "tokens_out": 259697,
+    "tokens_reasoning": 83673,
+    "model_minutes": 98,
+    "runs": 5,
+    "unmeasured_runs": 0
+  },
+  "fresh_context": "Each check ran in its own conversation.",
+  "how_measured": "Read from each session's own log (Codex rollout files; Claude Code session records). Sessions ran on subscriptions, so no per-token price applies. Model time is the time the model was working, tool runs included."
+}

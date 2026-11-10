@@ -1,0 +1,11 @@
+{
+ "id": "C2",
+ "kind": "quoted_numeric",
+ "location": "l.68 and footnote",
+ "method": "Compare with DESI VI Table 2 and with the priors recorded in the public chains (.updated.yaml); report the largest w0 + wa reached by the posterior samples.",
+ "text": "DESI VI uses uniform priors w0 in [-3, 1] and wa in [-3, 2] with the condition w0 + wa < 0; the data go nowhere near the last condition.",
+ "rests_on": "C9's prior reweighting is relative to exactly this prior.",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

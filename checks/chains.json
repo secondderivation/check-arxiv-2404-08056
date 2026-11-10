@@ -1,0 +1,75 @@
+{
+ "_about": "Run key -> chain file root under CHAINS (local copy of the files pinned in datasets/registry.json desi-dr1-cosmo-chains / desi-dr2-cosmo-chains) and burn-in fraction (PROTOCOL Addendum A1).",
+ "dr1_w0wa_PP": {
+  "root": "desi-dr1/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance",
+  "burn": 0.0
+ },
+ "dr1_w_PP": {
+  "root": "desi-dr1/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance",
+  "burn": 0.0
+ },
+ "dr1_w0wa_U3": {
+  "root": "desi-dr1/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance",
+  "burn": 0.0
+ },
+ "dr1_w_U3": {
+  "root": "desi-dr1/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance",
+  "burn": 0.0
+ },
+ "dr1_w0wa_DY5": {
+  "root": "desi-dr1/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance",
+  "burn": 0.0
+ },
+ "dr1_w_DY5": {
+  "root": "desi-dr1/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance",
+  "burn": 0.0
+ },
+ "dr1_w0wa_CMB": {
+  "root": "desi-dr1/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance",
+  "burn": 0.0
+ },
+ "dr1_lcdm_CMB": {
+  "root": "desi-dr1/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck2018-highl-plik-TTTEEE_add_planck-act-dr6-lensing/chain.post.importance",
+  "burn": 0.0
+ },
+ "dr1_w0wa_BAO": {
+  "root": "desi-dr1/base_w_wa/desi-bao-all/chain",
+  "burn": 0.3
+ },
+ "dr2_w0wa_PP": {
+  "root": "desi-dr2/base_w_wa/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain",
+  "burn": 0.3
+ },
+ "dr2_w_PP": {
+  "root": "desi-dr2/base_w/desi-bao-all_pantheonplus_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain",
+  "burn": 0.3
+ },
+ "dr2_w0wa_U3": {
+  "root": "desi-dr2/base_w_wa/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain",
+  "burn": 0.3
+ },
+ "dr2_w_U3": {
+  "root": "desi-dr2/base_w/desi-bao-all_union3_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain",
+  "burn": 0.3
+ },
+ "dr2_w0wa_DY5": {
+  "root": "desi-dr2/base_w_wa/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain",
+  "burn": 0.3
+ },
+ "dr2_w_DY5": {
+  "root": "desi-dr2/base_w/desi-bao-all_desy5sn_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain",
+  "burn": 0.3
+ },
+ "dr2_w0wa_CMB": {
+  "root": "desi-dr2/base_w_wa/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain",
+  "burn": 0.3
+ },
+ "dr2_lcdm_CMB": {
+  "root": "desi-dr2/base/desi-bao-all_planck2018-lowl-TT-clik_planck2018-lowl-EE-clik_planck-NPIPE-highl-CamSpec-TTTEEE_planck-act-dr6-lensing/chain",
+  "burn": 0.3
+ },
+ "dr2_w0wa_BAO": {
+  "root": "desi-dr2/base_w_wa/desi-bao-all/chain",
+  "burn": 0.3
+ }
+}

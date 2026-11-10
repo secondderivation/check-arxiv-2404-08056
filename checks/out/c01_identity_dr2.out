@@ -1,0 +1,37 @@
+files pinned: 90, mismatches: 0 -> PASS
+
+dr2_w0wa_PP
+  likelihoods: ACTDR6LensLike, EE_clik, TTTEEE, TT_clik, desi_bao_all, pantheonplus
+  dark energy params: {'w': (-3.0, 1.0), 'wa': (-3.0, 2.0)}; CAMB dark_energy_model: ppf; extra prior blocks: none
+
+dr2_w_PP
+  likelihoods: ACTDR6LensLike, EE_clik, TTTEEE, TT_clik, desi_bao_all, pantheonplus
+  dark energy params: {'w': (-3.0, 1.0), 'wa': 0.0}; CAMB dark_energy_model: ppf; extra prior blocks: none
+
+dr2_w0wa_U3
+  likelihoods: ACTDR6LensLike, EE_clik, TTTEEE, TT_clik, desi_bao_all, union3
+  dark energy params: {'w': (-3.0, 1.0), 'wa': (-3.0, 2.0)}; CAMB dark_energy_model: ppf; extra prior blocks: none
+
+dr2_w_U3
+  likelihoods: ACTDR6LensLike, EE_clik, TTTEEE, TT_clik, desi_bao_all, union3
+  dark energy params: {'w': (-3.0, 1.0), 'wa': 0.0}; CAMB dark_energy_model: ppf; extra prior blocks: none
+
+dr2_w0wa_DY5
+  likelihoods: ACTDR6LensLike, EE_clik, TTTEEE, TT_clik, desi_bao_all, desy5
+  dark energy params: {'w': (-3.0, 1.0), 'wa': (-3.0, 2.0)}; CAMB dark_energy_model: ppf; extra prior blocks: none
+
+dr2_w_DY5
+  likelihoods: ACTDR6LensLike, EE_clik, TTTEEE, TT_clik, desi_bao_all, desy5
+  dark energy params: {'w': (-3.0, 1.0), 'wa': 0.0}; CAMB dark_energy_model: ppf; extra prior blocks: none
+
+dr2_w0wa_CMB
+  likelihoods: ACTDR6LensLike, EE_clik, TTTEEE, TT_clik, desi_bao_all
+  dark energy params: {'w': (-3.0, 1.0), 'wa': (-3.0, 2.0)}; CAMB dark_energy_model: ppf; extra prior blocks: none
+
+dr2_lcdm_CMB
+  likelihoods: ACTDR6LensLike, EE_clik, TTTEEE, TT_clik, desi_bao_all
+  dark energy params: {'w': -1.0, 'wa': 0.0}; CAMB dark_energy_model: ppf; extra prior blocks: none
+
+dr2_w0wa_BAO
+  likelihoods: desi_bao_all
+  dark energy params: {'w': (-3.0, 1.0), 'wa': (-3.0, 2.0)}; CAMB dark_energy_model: ppf; extra prior blocks: none

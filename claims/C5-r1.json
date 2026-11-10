@@ -1,0 +1,11 @@
+{
+ "id": "C5",
+ "kind": "derivation",
+ "location": "l.72-76, l.119",
+ "method": "Re-derive symbolically (G6); check numerically on the DR1 chains: corr(w_p, wa), sd(wa) before and after, sd(w_p) vs sd(w0), and sd(w_p) against DESI VI's constant-w errors (and the public wCDM chains); compute the marginal prior on w_p implied by DESI's prior.",
+ "text": "Pivot transformation: w_p = w0 + wa(1 - a_p) with a_p chosen to decorrelate w_p and wa leaves the marginal of wa unchanged, shrinks the error on w_p compared with w0, preserves 2D areas (the induced prior on w_p is still flat), slides points horizontally in the w0-wa plane, and in a Gaussian approximation gives sigma(w_p) equal to the constant-w uncertainty.",
+ "rests_on": "The pivot reading of Fig. 1 (C6) and the PhantomX statement rest on these properties.",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

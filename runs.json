@@ -1,0 +1,42 @@
+[
+  {
+    "cmd": "python3 algebra.py --replay",
+    "out": "out/algebra.out"
+  },
+  {
+    "cmd": "python3 prior_volume.py --replay",
+    "out": "out/prior_volume.out"
+  },
+  {
+    "cmd": "python3 chain_checks.py dr1 --replay",
+    "out": "out/chain_checks_dr1.out"
+  },
+  {
+    "cmd": "python3 contours.py dr1 --replay",
+    "out": "out/contours_dr1.out"
+  },
+  {
+    "cmd": "python3 priors.py dr1 --replay",
+    "out": "out/priors_dr1.out"
+  },
+  {
+    "cmd": "python3 v6_t6.py --replay",
+    "out": "out/v6_t6.out",
+    "slow": true
+  },
+  {
+    "cmd": "python3 chain_checks.py dr2 --replay",
+    "out": "out/chain_checks_dr2.out",
+    "slow": true
+  },
+  {
+    "cmd": "python3 contours.py dr2 --replay",
+    "out": "out/contours_dr2.out",
+    "slow": true
+  },
+  {
+    "cmd": "python3 priors.py dr2 --replay",
+    "out": "out/priors_dr2.out",
+    "slow": true
+  }
+]

@@ -1,0 +1,11 @@
+{
+ "id": "C10",
+ "kind": "quoted",
+ "location": "l.84, l.123, l.134",
+ "method": "Compare with DESI VI v1 and v3 TeX (Table 3 wCDM rows, Appendix A, Section 3, Section 5.3).",
+ "text": "DESI VI's constant-w results are consistent with LCDM in all cases; swapping DESI's low-z BAO for SDSS (DESI VI Appendix A) reduces the significance by around half a sigma in each combination; the z = 0.51 LRG D_M/D_H point is the only DESI point significantly displaced from LCDM in DESI VI Fig. 1; with free curvature the results are very similar and centred on zero curvature.",
+ "rests_on": "C4-C6 rely on the constant-w statement (in a Gaussian approximation w_p equals the constant-w estimate).",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

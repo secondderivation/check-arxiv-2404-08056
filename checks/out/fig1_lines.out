@@ -1,0 +1,8 @@
+raster 820x732; frame rows 49-593, cols 107-789
+x tick columns (right of the frame's left edge): [161, 326, 491]  y tick rows: [86, 255, 424, 593]
+w0 per px 0.001212 (residual 0.0e+00); wa per px -0.005917 (residual 4.4e-16)
+red (today, w0 = -1)             from (-1.000, -3.010) to (-1.000, +0.227); w0 minus locus at 10/50/90%: -0.0004, -0.0004, -0.0004
+magenta (early, w0 + wa = -1)    from (-1.065, +0.055) to (-0.239, -0.684); w0 minus locus at 10/50/90%: -0.0009, +0.0336, +0.0680
+blue (w = -1 at z = 0.26)        from (-1.044, +0.206) to (-0.374, -2.997); w0 minus locus at 10/50/90%: -0.0003, +0.0033, +0.0069
+orange (w = -1 at z = 0.33)      from (-1.055, +0.226) to (-0.272, -2.993); w0 minus locus at 10/50/90%: -0.0008, -0.0068, -0.0127
+largest |deviation| in w0: 0.0680  (tolerance 0.02): FAIL

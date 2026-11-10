@@ -1,0 +1,11 @@
+{
+ "id": "C8",
+ "kind": "derivation",
+ "location": "l.100, l.115, l.117, l.136",
+ "method": "Re-derive d ln rho_de / d ln a = -3(1 + w) and the crossing scale factor a_x = 1 + (1 + w0)/wa; from the chains, the posterior of z_x and P(wa < 0); compare z_x with z_p.",
+ "text": "In the preferred models w crosses -1 near the centre of the observational window (at about the pivot), and because the phantom crossing is where rho_de stops increasing, the dark energy density reaches the maximum it will ever have inside the observed window.",
+ "rests_on": "This is the 'equivalent statement' of the coincidence added in v3 and repeated in the abstract.",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

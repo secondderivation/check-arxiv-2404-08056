@@ -1,0 +1,10 @@
+dr1_w0wa_PP (w_p at z_p=0.26): 95% region spans w_p -1.048 .. -0.914; the line w_p = -1 (grid col -1.0000) reaches the 95% level: PASS, the 68% level: True
+   max density on the line / 95% level = 15.206
+dr1_w0wa_PP (w0, wa): 95% region has 9679 grid cells, 0 outside zone Z4: PASS; max of w0 + wa over the 95% region -1.079; min of w0 -0.982
+dr1_w0wa_U3 (w_p at z_p=0.33): 95% region spans w_p -1.053 .. -0.867; the line w_p = -1 (grid col -1.0001) reaches the 95% level: PASS, the 68% level: True
+   max density on the line / 95% level = 11.534
+dr1_w0wa_U3 (w0, wa): 95% region has 16274 grid cells, 0 outside zone Z4: PASS; max of w0 + wa over the 95% region -1.272; min of w0 -0.891
+dr1_w0wa_DY5 (w_p at z_p=0.26): 95% region spans w_p -1.006 .. -0.879; the line w_p = -1 (grid col -0.9995) reaches the 95% level: PASS, the 68% level: False
+   max density on the line / 95% level = 1.857
+dr1_w0wa_DY5 (w0, wa): 95% region has 12398 grid cells, 0 outside zone Z4: PASS; max of w0 + wa over the 95% region -1.231; min of w0 -0.894
+figure: checks/out/pivot_contours_dr1.png

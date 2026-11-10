@@ -1,0 +1,25 @@
+== C5 pivot transformation ==
+Cov(w_p, w_a) =  S0a + Saa*(1 - a_p) -> a_p = (S0a + Saa)/Saa  i.e. 1 - a_p = -S0a/Saa: PASS
+Var(w_p) at the pivot = S00 - S0a**2/Saa : PASS
+Var(w_p) <= Var(w0) (Saa > 0): PASS (difference S0a^2/Saa >= 0)
+Jacobian of (w0, wa) -> (w_p, wa): [[1, 1 - a_p], [0, 1]] det = 1 : PASS
+wa unchanged, w0 shifted by wa(1-a_p) at fixed wa: horizontal slide in the (w0, wa) plane: PASS
+Gaussian: Var(w0 | wa=0) == Var(w_p): PASS
+Gaussian: E(w0 | wa=0) == E(w_p) (pivot mean equals the constant-w estimate): PASS
+w_p = -1 line: w0 = a_p*w_a - w_a - 1 ; passes through LCDM (-1, 0): PASS ; slope d wa/d w0 = 1/(a_p - 1)
+  z_p=0.26: a_p=0.793651, slope d wa/d w0 = -4.84615
+  z_p=0.33: a_p=0.751880, slope d wa/d w0 = -4.03030
+
+== C7 zones ==
+w(a) is linear in a, so on (0,1] its extremes are w(a->0) = w0 + wa and w(1) = w0: w0 + w_a , w0
+Z1 always phantom: w0 < -1 and w0 + wa < -1   (lower left of both lines)
+Z2 never phantom: w0 >= -1 and w0 + wa >= -1  (upper right)
+Z3 phantom today only: w0 < -1, w0 + wa >= -1  => wa > -1 - w0 > 0 (top left)
+Z4 phantom early only: w0 >= -1, w0 + wa < -1 => wa < -1 - w0 <= 0
+Red line (today) w0 = -1 is vertical; magenta line (early) wa = -1 - w0 has slope -1 through (-1, 0)
+
+== C8 crossing and maximum of rho_de ==
+ln rho_de =  -3*w_a*(1 - a) + (-3*w0 - 3*w_a - 3)*log(a) ;  d ln rho/d ln a = -3*(-a*w_a + w0 + w_a + 1) : PASS
+crossing a_x = (w0 + w_a + 1)/w_a : PASS
+d/da (d ln rho / d ln a) at a_x = 3*w_a  -> negative for wa < 0: the crossing is a maximum of rho_de
+For wa < 0, w increases monotonically with a for all a > 0 (dw/da = -wa > 0), so w < -1 before a_x and > -1 after, i.e. rho_de rises before and falls after: a_x is the global maximum over a in (0, inf) of the CPL extrapolation.

@@ -1,0 +1,23 @@
+== C0.3 E_pi0[t] on the DESI box (w0 in [-3,1], wa in [-3,2], w0+wa<0) ==
+box area by quadrature: 15.5000 (analytic 15.5)
+  T1       quadrature 0.281887  Monte Carlo 0.281764  rel. diff 4.36e-04 < 2e-3: PASS   ln E = -1.2662
+  T2       quadrature 0.197741  Monte Carlo 0.197603  rel. diff 6.97e-04 < 2e-3: PASS   ln E = -1.6208
+  T3       quadrature 0.164761  Monte Carlo 0.164678  rel. diff 5.07e-04 < 2e-3: PASS   ln E = -1.8033
+  T4       quadrature 0.048805  Monte Carlo 0.048773  rel. diff 6.67e-04 < 2e-3: PASS   ln E = -3.0199
+  T5       quadrature 0.129097  Monte Carlo 0.128918  rel. diff 1.38e-03 < 2e-3: PASS   ln E = -2.0472
+  CUT-2.9  quadrature 0.974206  Monte Carlo 0.974314  rel. diff 1.10e-04 < 2e-3: PASS   ln E = -0.0261
+  analytic CUT-2.9 fraction: 1 - (0.1 x 4)/15.5 = 0.974194 (the strip wa in [-3, -2.9] has the full w0 width 4, since w0 + wa < 0 holds there)
+
+== C5 marginal prior density of w_p implied by pi0 (the joint prior in (w_p, wa) is flat: Jacobian 1; the tilt below comes from the condition w0 + wa < 0, i.e. wa < -w_p/a_p) ==
+  z_p=0.26: p(w_p=-1.2) = 0.29110   relative to w_p=-1.2: 1.0000
+  z_p=0.26: p(w_p=-1.1) = 0.28297   relative to w_p=-1.2: 0.9721
+  z_p=0.26: p(w_p=-1.0) = 0.27484   relative to w_p=-1.2: 0.9442
+  z_p=0.26: p(w_p=-0.9) = 0.26671   relative to w_p=-1.2: 0.9162
+  z_p=0.26: p(w_p=-0.8) = 0.25858   relative to w_p=-1.2: 0.8883
+  z_p=0.26: variation over w_p in [-1.2, -0.8]: 11.83% < 5%: FAIL
+  z_p=0.33: p(w_p=-1.2) = 0.29652   relative to w_p=-1.2: 1.0000
+  z_p=0.33: p(w_p=-1.1) = 0.28794   relative to w_p=-1.2: 0.9711
+  z_p=0.33: p(w_p=-1.0) = 0.27935   relative to w_p=-1.2: 0.9421
+  z_p=0.33: p(w_p=-0.9) = 0.27077   relative to w_p=-1.2: 0.9132
+  z_p=0.33: p(w_p=-0.8) = 0.26219   relative to w_p=-1.2: 0.8842
+  z_p=0.33: variation over w_p in [-1.2, -0.8]: 12.29% < 5%: FAIL
