@@ -1,6 +1,6 @@
 # Interpreting DESI's evidence for evolving dark energy
 
-[2404.08056v3](https://arxiv.org/abs/2404.08056v3) · Review 0.2.0-rc2
+[2404.08056v3](https://arxiv.org/abs/2404.08056v3) · Review 0.2.0-rc3
 
 **Reproduced in scope.** The pivot transformation and main interpretation reproduce, with qualifications to the precision and direction of prior effects.
 
@@ -39,7 +39,7 @@ Not checked: A new fit or optimisation. All numbers come from reweighting DESI's
 
 Prepared with AI assistance. Historical Claude first pass and Codex independent review/critique remain distinct; this assembly reads saved evidence and is neither blind B nor new P2. No scientific code was run in this assembly. Before the replay command below, extract legacy-original.zip into a new directory and read its README.md and requirements.txt for installation, dependency, data and scope instructions.
 
-Tools: Claude (historical A); Codex (historical B/C and current informed assembly). Human involvement: Owner selected preparation scope; no publication decision is recorded for this batch..
+Tools: Claude (historical A); Codex (historical B/C and current informed assembly). Human involvement: Owner selected the preparation scope and approved the predecessor release published on 10 November 2026; the owner approved publication of this editorial revision on 11 November 2026.
 
 ## Replay
 
